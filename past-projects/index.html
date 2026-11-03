@@ -358,5 +358,98 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
 //# sourceURL=/wp-includes/js/wp-emoji-loader.min.js
 </script>
 
+
+<!-- Static Past Projects lightbox: replaces the WordPress AJAX-dependent gallery viewer. -->
+<style id="sentinel-project-lightbox-styles">
+  #bwg_thumbnails_0 a.bwg_lightbox { cursor: zoom-in; }
+  .sentinel-lightbox[hidden] { display: none !important; }
+  .sentinel-lightbox { position: fixed; inset: 0; z-index: 2147483000; display: flex; align-items: center; justify-content: center; background: rgba(6, 11, 17, .95); padding: 58px 72px 44px; box-sizing: border-box; }
+  .sentinel-lightbox__photo { display: block; max-width: 100%; max-height: calc(100dvh - 112px); object-fit: contain; box-shadow: 0 18px 60px rgba(0,0,0,.45); }
+  .sentinel-lightbox__close, .sentinel-lightbox__arrow { position: absolute; display: grid; place-items: center; width: 46px; height: 46px; padding: 0; border: 1px solid rgba(255,255,255,.22); border-radius: 50%; background: rgba(18, 23, 29, .72); color: white; font: 400 34px/1 Arial,sans-serif; cursor: pointer; transition: background .18s ease; }
+  .sentinel-lightbox__close:hover, .sentinel-lightbox__arrow:hover { background: rgba(255,255,255,.22); }
+  .sentinel-lightbox__close:focus-visible, .sentinel-lightbox__arrow:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+  .sentinel-lightbox__close { top: 15px; right: 19px; font-size: 30px; }
+  .sentinel-lightbox__arrow--prev { left: 16px; top: 50%; transform: translateY(-50%); }
+  .sentinel-lightbox__arrow--next { right: 16px; top: 50%; transform: translateY(-50%); }
+  .sentinel-lightbox__count { position: absolute; bottom: 12px; left: 50%; transform: translateX(-50%); color: #eee; font: 14px/1.5 Arial,sans-serif; }
+  @media (max-width: 600px) { .sentinel-lightbox { padding: 60px 10px 74px; } .sentinel-lightbox__photo { max-height: calc(100dvh - 150px); } .sentinel-lightbox__arrow { top: auto; bottom: 12px; transform: none; } .sentinel-lightbox__arrow--prev { left: 18px; } .sentinel-lightbox__arrow--next { right: 18px; } .sentinel-lightbox__count { bottom: 24px; } }
+</style>
+<div id="sentinel-project-lightbox" class="sentinel-lightbox" role="dialog" aria-modal="true" aria-label="Past projects photo viewer" tabindex="-1" hidden>
+  <button type="button" class="sentinel-lightbox__close" aria-label="Close photo viewer">&times;</button>
+  <button type="button" class="sentinel-lightbox__arrow sentinel-lightbox__arrow--prev" aria-label="Previous photo">&#8249;</button>
+  <img class="sentinel-lightbox__photo" alt="Past project photo">
+  <button type="button" class="sentinel-lightbox__arrow sentinel-lightbox__arrow--next" aria-label="Next photo">&#8250;</button>
+  <span class="sentinel-lightbox__count" aria-live="polite"></span>
+</div>
+<script id="sentinel-project-lightbox-script">
+(function () {
+  'use strict';
+  const gallery = document.getElementById('bwg_thumbnails_0');
+  const overlay = document.getElementById('sentinel-project-lightbox');
+  if (!gallery || !overlay) return;
+  const photo = overlay.querySelector('.sentinel-lightbox__photo');
+  const counter = overlay.querySelector('.sentinel-lightbox__count');
+  const previous = overlay.querySelector('.sentinel-lightbox__arrow--prev');
+  const next = overlay.querySelector('.sentinel-lightbox__arrow--next');
+  const closeButton = overlay.querySelector('.sentinel-lightbox__close');
+  let index = 0;
+  let returnFocus = null;
+  let previousOverflow = '';
+  const galleryLinks = () => Array.from(gallery.querySelectorAll('a.bwg_lightbox[href]'));
+  function show(number) {
+    const items = galleryLinks();
+    if (!items.length) return;
+    index = (number + items.length) % items.length;
+    const item = items[index];
+    photo.src = item.getAttribute('href');
+    const thumbnail = item.querySelector('img');
+    photo.alt = thumbnail && thumbnail.alt && !/^[0-9a-f]{8}-[0-9a-f-]{27,}$/i.test(thumbnail.alt) ? thumbnail.alt : 'Past project photo ' + (index + 1);
+    counter.textContent = (index + 1) + ' / ' + items.length;
+  }
+  function openAt(item) {
+    const items = galleryLinks();
+    const position = items.indexOf(item);
+    if (position < 0) return;
+    returnFocus = item;
+    previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    overlay.hidden = false;
+    show(position);
+    closeButton.focus();
+  }
+  function close() {
+    if (overlay.hidden) return;
+    overlay.hidden = true;
+    photo.removeAttribute('src');
+    document.body.style.overflow = previousOverflow;
+    if (returnFocus && returnFocus.isConnected) returnFocus.focus();
+  }
+  gallery.addEventListener('click', function (event) {
+    const link = event.target.closest('a.bwg_lightbox[href]');
+    if (!link || !gallery.contains(link)) return;
+    event.preventDefault();
+    event.stopPropagation();
+    event.stopImmediatePropagation();
+    openAt(link);
+  }, true);
+  previous.addEventListener('click', () => show(index - 1));
+  next.addEventListener('click', () => show(index + 1));
+  closeButton.addEventListener('click', close);
+  overlay.addEventListener('click', event => { if (event.target === overlay) close(); });
+  document.addEventListener('keydown', function (event) {
+    if (overlay.hidden) return;
+    if (event.key === 'Escape') { event.preventDefault(); close(); }
+    else if (event.key === 'ArrowLeft') { event.preventDefault(); show(index - 1); }
+    else if (event.key === 'ArrowRight') { event.preventDefault(); show(index + 1); }
+    else if (event.key === 'Tab') {
+      const controls = [closeButton, previous, next];
+      const current = controls.indexOf(document.activeElement);
+      if (event.shiftKey && (current <= 0)) { event.preventDefault(); next.focus(); }
+      else if (!event.shiftKey && current === controls.length - 1) { event.preventDefault(); closeButton.focus(); }
+    }
+  });
+})();
+</script>
+
 </body>
 </html>
