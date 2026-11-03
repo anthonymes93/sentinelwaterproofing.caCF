@@ -533,6 +533,7 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
   let siteKey = '';
   let busy = false;
   let resolveToken = null;
+  let turnstileError = '';
   function message(text, error) { status.hidden = !text; status.textContent = text; status.dataset.error = error ? 'true' : 'false'; }
   const setup = fetch('/api/contact-config', { cache: 'no-store' }).then(async response => {
     if (!response.ok) throw new Error('Contact form configuration is unavailable.');
@@ -553,14 +554,14 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
       size: 'invisible',
       execution: 'execute',
       callback: token => { if (resolveToken) { const done = resolveToken; resolveToken = null; done(token); } },
-      'error-callback': () => { if (resolveToken) { const done = resolveToken; resolveToken = null; done(null); } }
+      'error-callback': code => { turnstileError = String(code || 'unknown'); if (resolveToken) { const done = resolveToken; resolveToken = null; done(null); } else { message('Verification error (' + turnstileError + '). Please try again.', true); } }
     });
   });
   setup.catch(error => message(error.message, true));
   function getToken() {
     return new Promise(resolve => {
       resolveToken = resolve;
-      window.turnstile.reset(widgetId);
+      turnstileError = '';
       window.turnstile.execute(widgetId);
     });
   }
@@ -580,7 +581,7 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
     try {
       await setup;
       const token = await getToken();
-      if (!token) throw new Error('Verification failed. Please try again.');
+      if (!token) throw new Error('Verification failed' + (turnstileError ? ' (Turnstile ' + turnstileError + ')' : '') + '. Please try again.');
       const response = await fetch('/api/contact', {
         method: 'POST', headers: { 'content-type': 'application/json' },
         body: JSON.stringify({ name, email, phone, message: body, turnstileToken: token })
