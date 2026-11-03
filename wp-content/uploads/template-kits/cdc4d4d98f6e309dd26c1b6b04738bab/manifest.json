@@ -1,0 +1,988 @@
+{
+    "manifest_version": "1.0.23",
+    "title": "Evenizer - Event Organizer Website Elementor Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/evenezer.typelokka.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Metform Template",
+            "screenshot": "screenshots\/metform-template.png",
+            "source": "templates\/metform-template.json",
+            "preview_url": "https:\/\/evenezer.typelokka.com\/template-kit\/metform-template\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-cta",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.png",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/evenezer.typelokka.com\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.png",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/evenezer.typelokka.com\/template-kit\/header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "404",
+            "screenshot": "screenshots\/404.png",
+            "source": "templates\/404.json",
+            "preview_url": "https:\/\/evenezer.typelokka.com\/template-kit\/404\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.png",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/evenezer.typelokka.com\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Help Center",
+            "screenshot": "screenshots\/help-center.png",
+            "source": "templates\/help-center.json",
+            "preview_url": "https:\/\/evenezer.typelokka.com\/template-kit\/help-center\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.png",
+            "source": "templates\/team.json",
+            "preview_url": "https:\/\/evenezer.typelokka.com\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.png",
+            "source": "templates\/pricing.json",
+            "preview_url": "https:\/\/evenezer.typelokka.com\/template-kit\/pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Projects",
+            "screenshot": "screenshots\/projects.png",
+            "source": "templates\/projects.json",
+            "preview_url": "https:\/\/evenezer.typelokka.com\/template-kit\/projects\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Service Details",
+            "screenshot": "screenshots\/service-details.png",
+            "source": "templates\/service-details.json",
+            "preview_url": "https:\/\/evenezer.typelokka.com\/template-kit\/service-details\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.png",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/evenezer.typelokka.com\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.png",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/evenezer.typelokka.com\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.png",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/evenezer.typelokka.com\/template-kit\/home\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "3.25.3",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor Header & Footer Builder",
+            "version": "1.6.45",
+            "file": "header-footer-elementor\/header-footer-elementor.php",
+            "author": "Brainstorm Force, Nikhil Chavan"
+        },
+        {
+            "name": "MetForm",
+            "version": "3.9.0",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "The Plus Addons for Elementor",
+            "version": "6.0.3",
+            "file": "the-plus-addons-for-elementor-page-builder\/theplus_elementor_addon.php",
+            "author": "POSIMYTH"
+        }
+    ],
+    "images": [
+        {
+            "filename": "crowd-at-concert-and-colorful-stage-lights-2024-10-02-22-38-04-utc-1.jpg",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/crowd-at-concert-and-colorful-stage-lights-2024-10-02-22-38-04-utc-1-800x577.jpg",
+            "templates": [
+                {
+                    "source": "templates\/404.json",
+                    "name": "404"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/help-center.json",
+                    "name": "Help Center"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/service-details.json",
+                    "name": "Service Details"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 38387,
+            "dimensions": [
+                1440,
+                1039
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "business-team-socializing-at-after-works-drinks-in-2024-10-19-03-00-19-utc-1.jpg",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/business-team-socializing-at-after-works-drinks-in-2024-10-19-03-00-19-utc-1-800x495.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 33235,
+            "dimensions": [
+                1440,
+                891
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "smiling-decorator-with-clipboard-showing-white-flo-2023-11-27-04-53-03-utc-1.jpg",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/smiling-decorator-with-clipboard-showing-white-flo-2023-11-27-04-53-03-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/help-center.json",
+                    "name": "Help Center"
+                }
+            ],
+            "filesize": 56218,
+            "dimensions": [
+                490,
+                591
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "businesswoman-meeting-with-the-man-at-seminar-2023-11-27-04-55-11-utc-1.jpg",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/businesswoman-meeting-with-the-man-at-seminar-2023-11-27-04-55-11-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 170744,
+            "dimensions": [
+                492,
+                346
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "asian-businesswoman-using-cellphone-at-workplace-2023-12-14-03-40-44-utc-2.jpg",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/asian-businesswoman-using-cellphone-at-workplace-2023-12-14-03-40-44-utc-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 91755,
+            "dimensions": [
+                360,
+                290
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "businessman-taking-part-at-seminar-2023-11-27-05-16-34-utc-2.jpg",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/businessman-taking-part-at-seminar-2023-11-27-05-16-34-utc-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 95611,
+            "dimensions": [
+                360,
+                290
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "smiling-blonde-event-manager-with-clipboard-lookin-2023-11-27-05-06-28-utc-1.jpg",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/smiling-blonde-event-manager-with-clipboard-lookin-2023-11-27-05-06-28-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 122958,
+            "dimensions": [
+                360,
+                290
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "asian-businesswoman-using-cellphone-at-workplace-2023-12-14-03-40-44-utc-1.jpg",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/asian-businesswoman-using-cellphone-at-workplace-2023-12-14-03-40-44-utc-1-800x337.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 67149,
+            "dimensions": [
+                1140,
+                480
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "disabled-woman-in-wheelchair-discussing-startup-pr-2023-11-27-05-00-24-utc-1.jpg",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/disabled-woman-in-wheelchair-discussing-startup-pr-2023-11-27-05-00-24-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 52670,
+            "dimensions": [
+                490,
+                499
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "happy-chief-decorator-looking-at-camera-while-team-2023-11-27-05-23-43-utc-1.jpg",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/happy-chief-decorator-looking-at-camera-while-team-2023-11-27-05-23-43-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 196662,
+            "dimensions": [
+                490,
+                369
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "Logo-Client-2.png",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/Logo-Client-2.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 4441,
+            "dimensions": [
+                173,
+                62
+            ],
+            "image_source": "cc0",
+            "image_urls": "logoipsum.com"
+        },
+        {
+            "filename": "businessman-taking-part-at-seminar-2023-11-27-05-16-34-utc-1.png",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/businessman-taking-part-at-seminar-2023-11-27-05-16-34-utc-1.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 80911,
+            "dimensions": [
+                500,
+                419
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "crowd-at-concert-and-blurred-stage-lights-2024-10-02-22-38-04-utc-1.png",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/crowd-at-concert-and-blurred-stage-lights-2024-10-02-22-38-04-utc-1-800x569.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 79754,
+            "dimensions": [
+                1440,
+                1024
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "women-conference-and-talking-with-business-people-2024-10-10-23-02-53-utc-1.jpg",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/women-conference-and-talking-with-business-people-2024-10-10-23-02-53-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/service-details.json",
+                    "name": "Service Details"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 178565,
+            "dimensions": [
+                430,
+                330
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "wedding-ceremony-of-the-newlyweds-on-the-glade-2023-11-27-05-33-52-utc-1.jpg",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/wedding-ceremony-of-the-newlyweds-on-the-glade-2023-11-27-05-33-52-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/service-details.json",
+                    "name": "Service Details"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 196407,
+            "dimensions": [
+                430,
+                330
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "a-group-of-multiracial-businesspeople-hands-raise-2023-11-27-04-59-09-utc-1.jpg",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/a-group-of-multiracial-businesspeople-hands-raise-2023-11-27-04-59-09-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/service-details.json",
+                    "name": "Service Details"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 156223,
+            "dimensions": [
+                430,
+                330
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "celebrate-success-with-colleagues-business-celebr-2023-11-27-05-33-07-utc-1-1.jpg",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/celebrate-success-with-colleagues-business-celebr-2023-11-27-05-33-07-utc-1-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-details.json",
+                    "name": "Service Details"
+                }
+            ],
+            "filesize": 72626,
+            "dimensions": [
+                490,
+                399
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "celebrate-success-with-colleagues-business-celebr-2023-11-27-05-33-07-utc-1.jpg",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/celebrate-success-with-colleagues-business-celebr-2023-11-27-05-33-07-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-details.json",
+                    "name": "Service Details"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 168540,
+            "dimensions": [
+                360,
+                240
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "group-of-friends-making-party-at-home-on-new-year-2023-12-28-01-51-55-utc-1.jpg",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/group-of-friends-making-party-at-home-on-new-year-2023-12-28-01-51-55-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-details.json",
+                    "name": "Service Details"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 139378,
+            "dimensions": [
+                360,
+                240
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "happy-technician-group-enjoying-their-successful-j-2024-03-13-16-38-04-utc-1.jpg",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/happy-technician-group-enjoying-their-successful-j-2024-03-13-16-38-04-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-details.json",
+                    "name": "Service Details"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 145936,
+            "dimensions": [
+                360,
+                240
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "shot-of-a-happy-newlywed-young-couple-walking-down-2023-11-27-05-36-48-utc-1.jpg",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/shot-of-a-happy-newlywed-young-couple-walking-down-2023-11-27-05-36-48-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 117199,
+            "dimensions": [
+                360,
+                240
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "parents-with-mobile-devices-at-graduation-2023-11-27-05-19-01-utc-1.jpg",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/parents-with-mobile-devices-at-graduation-2023-11-27-05-19-01-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 105200,
+            "dimensions": [
+                360,
+                240
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "rock-on-2023-11-27-05-16-28-utc-1.jpg",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/rock-on-2023-11-27-05-16-28-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 105683,
+            "dimensions": [
+                360,
+                240
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "Logo-Client-3.png",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/Logo-Client-3.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 4221,
+            "dimensions": [
+                78,
+                62
+            ],
+            "image_source": "cc0",
+            "image_urls": "logoipsum.com"
+        },
+        {
+            "filename": "Logo-Client-5.png",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/Logo-Client-5.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 2350,
+            "dimensions": [
+                122,
+                62
+            ],
+            "image_source": "cc0",
+            "image_urls": "logoipsum.com"
+        },
+        {
+            "filename": "Logo-Client-1.png",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/Logo-Client-1.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 5248,
+            "dimensions": [
+                123,
+                62
+            ],
+            "image_source": "cc0",
+            "image_urls": "logoipsum.com"
+        },
+        {
+            "filename": "Logo-Client-4.png",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/Logo-Client-4.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 4850,
+            "dimensions": [
+                148,
+                62
+            ],
+            "image_source": "cc0",
+            "image_urls": "logoipsum.com"
+        },
+        {
+            "filename": "image-13.png",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/image-13.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 59548,
+            "dimensions": [
+                540,
+                399
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "image-9.jpg",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/image-9.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 4636,
+            "dimensions": [
+                50,
+                50
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "image-10.jpg",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/image-10.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 4626,
+            "dimensions": [
+                50,
+                50
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "image-7.jpeg",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/image-7.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 36543,
+            "dimensions": [
+                258,
+                290
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "image-6.jpeg",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/image-6.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 32341,
+            "dimensions": [
+                258,
+                290
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        },
+        {
+            "filename": "image-8.png",
+            "thumbnail_url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/image-8.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 75089,
+            "dimensions": [
+                258,
+                290
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/7R3AGEC4YP?utm_source=my_collection&utm_medium=link&utm_campaign=share_collection"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+/**
+ * Hide edit button and settings for AI Studio on Connectors page.
+ *
+ * AI Studio manages its own authentication, so users don't need to edit or see these fields.
+ * JavaScript adds the .sg-ai-studio-connector class to the item container.
+ */
+
+/* Hide the entire connector-settings panel for AI Studio */
+.sg-ai-studio-connector .connector-settings > * {
+	display: none !important;
+}
+.sg-ai-studio-connector .connector-settings {
+	display: none !important;
+}
+
+.sg-ai-studio-connector.connected .connector-settings {
+	display: block !important;
+}
+
+.sg-ai-studio-connector.connected .connector-settings::before {
+	content: "SiteGround AI is a multi-model AI service that intelligently routes each task to the best-suited LLM, optimizing for output quality and cost efficiency. It powers WordPress AI features, including text, image, and code generation, translation, research, analysis, and more, and activates a powerful AI agent for managing WordPress and WooCommerce.\A \A SiteGround AI orchestrates several models - Gemini, Nano Banana, ChatGPT, GPT-Image, Claude, and automatically selects the best one for each job.";
+	white-space: pre-wrap;
+	display: block;
+	color: #1e1e1e;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+/* Add a helpful message after the connected badge */
+.sg-ai-studio-connector::after {
+	content: "No API key is needed to activate. Install the AI Agent by SiteGround plugin, create a free account for SiteGround AI Studio service, and the connector activates automatically.";
+	display: block;
+	padding: 12px 16px;
+	background: #f0f6fc;
+	border-left: 4px solid #2271b1;
+	margin: 16px 0;
+	color: #1e1e1e;
+	font-size: 13px;
+	line-height: 1.5;
+}

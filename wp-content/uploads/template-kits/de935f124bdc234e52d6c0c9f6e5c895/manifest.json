@@ -1,0 +1,1075 @@
+{
+    "manifest_version": "1.0.23",
+    "title": "Rigrent - Heavy Equipment Rental Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/www.wp-templatekit.codeinsolution.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/template-kit\/home\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Service Detail",
+            "screenshot": "screenshots\/service-detail.jpg",
+            "source": "templates\/service-detail.json",
+            "preview_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/template-kit\/service-detail\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Equipment",
+            "screenshot": "screenshots\/equipment.jpg",
+            "source": "templates\/equipment.json",
+            "preview_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/template-kit\/equipment\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Equipment Detail",
+            "screenshot": "screenshots\/equipment-detail.jpg",
+            "source": "templates\/equipment-detail.json",
+            "preview_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/template-kit\/equipment-detail\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Team",
+            "screenshot": "screenshots\/our-team.jpg",
+            "source": "templates\/our-team.json",
+            "preview_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/template-kit\/our-team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.jpg",
+            "source": "templates\/pricing.json",
+            "preview_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/template-kit\/pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Career",
+            "screenshot": "screenshots\/career.jpg",
+            "source": "templates\/career.json",
+            "preview_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/template-kit\/career\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Testimonials",
+            "screenshot": "screenshots\/testimonials.jpg",
+            "source": "templates\/testimonials.json",
+            "preview_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/template-kit\/testimonials\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Blog",
+            "screenshot": "screenshots\/single-blog.jpg",
+            "source": "templates\/single-blog.json",
+            "preview_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/template-kit\/single-blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Metform Contact",
+            "screenshot": "screenshots\/metform-contact.jpg",
+            "source": "templates\/metform-contact.json",
+            "preview_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/template-kit\/metform-contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "404 Page",
+            "screenshot": "screenshots\/404-page.jpg",
+            "source": "templates\/404-page.json",
+            "preview_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/template-kit\/404-page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Coming Soon",
+            "screenshot": "screenshots\/coming-soon.jpg",
+            "source": "templates\/coming-soon.json",
+            "preview_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/template-kit\/coming-soon\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/template-kit\/header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "3.35.7",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Jeg Kit for Elementor",
+            "version": "3.0.3",
+            "file": "jeg-elementor-kit\/jeg-elementor-kit.php",
+            "author": "Jegtheme"
+        },
+        {
+            "name": "MetForm",
+            "version": "4.1.3",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        }
+    ],
+    "images": [
+        {
+            "filename": "excavator-2026-01-08-23-59-17-utc-1.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/excavator-2026-01-08-23-59-17-utc-1-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 222219,
+            "dimensions": [
+                1700,
+                1135
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/3d7077c5-bc61-4fc4-a540-a8b39fc42644"
+        },
+        {
+            "filename": "Exavator.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/Exavator-800x446.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 201244,
+            "dimensions": [
+                2500,
+                1395
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/8b63e0c2-12ba-48b5-a7b3-17d7fc9712af"
+        },
+        {
+            "filename": "backhoe-working-by-digging-soil-at-construction-si-2026-03-18-04-35-44-utc-1.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/backhoe-working-by-digging-soil-at-construction-si-2026-03-18-04-35-44-utc-1-800x460.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 101121,
+            "dimensions": [
+                2000,
+                1149
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/f7e2b32e-ff4b-42c5-a98f-0b861492353d"
+        },
+        {
+            "filename": "construction-site-2026-03-20-00-22-18-utc-1.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/construction-site-2026-03-20-00-22-18-utc-1-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 249304,
+            "dimensions": [
+                1000,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/e54f4721-6986-4266-9125-e6ad9e97882c"
+        },
+        {
+            "filename": "heavy-dump-truck-used-for-platinum-mining-in-south-2026-03-18-06-26-12-utc-1.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/heavy-dump-truck-used-for-platinum-mining-in-south-2026-03-18-06-26-12-utc-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/equipment.json",
+                    "name": "Equipment"
+                }
+            ],
+            "filesize": 167616,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/45648b49-3217-43c3-8c1d-ab171e04b5fa"
+        },
+        {
+            "filename": "bulldozer-on-a-construction-site-2026-03-26-00-19-29-utc-1.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/bulldozer-on-a-construction-site-2026-03-26-00-19-29-utc-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                },
+                {
+                    "source": "templates\/equipment.json",
+                    "name": "Equipment"
+                },
+                {
+                    "source": "templates\/equipment-detail.json",
+                    "name": "Equipment Detail"
+                }
+            ],
+            "filesize": 160343,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/481c1f80-9d27-4197-9e3d-7f98dda7ca31"
+        },
+        {
+            "filename": "horizontal-shot-of-a-yellow-front-loader-tractor-c-2026-03-18-17-36-28-utc.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/horizontal-shot-of-a-yellow-front-loader-tractor-c-2026-03-18-17-36-28-utc-800x575.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/equipment.json",
+                    "name": "Equipment"
+                },
+                {
+                    "source": "templates\/equipment-detail.json",
+                    "name": "Equipment Detail"
+                }
+            ],
+            "filesize": 221998,
+            "dimensions": [
+                1300,
+                935
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/c00be1ad-8412-467d-8aca-09b0f33c5ea8"
+        },
+        {
+            "filename": "testimonial-1-3.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/testimonial-1-3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 18229,
+            "dimensions": [
+                400,
+                390
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/755cd174-833c-4cdc-b486-253b41957a9b"
+        },
+        {
+            "filename": "testimonial-2-3.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/testimonial-2-3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 13909,
+            "dimensions": [
+                400,
+                390
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/755cd174-833c-4cdc-b486-253b41957a9b"
+        },
+        {
+            "filename": "testimonial-3-3.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/testimonial-3-3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 16214,
+            "dimensions": [
+                400,
+                390
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/755cd174-833c-4cdc-b486-253b41957a9b"
+        },
+        {
+            "filename": "crawler-excavator-during-earthmoving-works-on-cons-2026-03-19-21-55-41-utc-1.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/crawler-excavator-during-earthmoving-works-on-cons-2026-03-19-21-55-41-utc-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 226609,
+            "dimensions": [
+                1400,
+                933
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/6419d6b1-748c-41c5-8d4e-751df20fc0ae"
+        },
+        {
+            "filename": "header-vertical-lines.png",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/header-vertical-lines-800x447.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                },
+                {
+                    "source": "templates\/equipment.json",
+                    "name": "Equipment"
+                },
+                {
+                    "source": "templates\/equipment-detail.json",
+                    "name": "Equipment Detail"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/single-blog.json",
+                    "name": "Single Blog"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/404-page.json",
+                    "name": "404 Page"
+                },
+                {
+                    "source": "templates\/coming-soon.json",
+                    "name": "Coming Soon"
+                }
+            ],
+            "filesize": 22004,
+            "dimensions": [
+                2968,
+                1660
+            ],
+            "image_source": "cc0",
+            "image_urls": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/"
+        },
+        {
+            "filename": "architecture-construction-safety-first-career-conc-2026-01-07-23-41-11-utc-1.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/architecture-construction-safety-first-career-conc-2026-01-07-23-41-11-utc-1-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/equipment-detail.json",
+                    "name": "Equipment Detail"
+                }
+            ],
+            "filesize": 101098,
+            "dimensions": [
+                1200,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/7a4c7825-4271-4b76-bb40-964c9cd0888c"
+        },
+        {
+            "filename": "team-1-3.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/team-1-3-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 65097,
+            "dimensions": [
+                961,
+                961
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/217694f8-32ca-4c58-9f7d-0a7906fd4516"
+        },
+        {
+            "filename": "team-2-4.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/team-2-4-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 39083,
+            "dimensions": [
+                961,
+                961
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/217694f8-32ca-4c58-9f7d-0a7906fd4516"
+        },
+        {
+            "filename": "team-3-4.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/team-3-4-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 33712,
+            "dimensions": [
+                961,
+                961
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/217694f8-32ca-4c58-9f7d-0a7906fd4516"
+        },
+        {
+            "filename": "Group-5.png",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/Group-5.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 2863,
+            "dimensions": [
+                216,
+                40
+            ],
+            "image_source": "cc0",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "Group-7.png",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/Group-7.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 2417,
+            "dimensions": [
+                215,
+                40
+            ],
+            "image_source": "cc0",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "Group-8.png",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/Group-8.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 2213,
+            "dimensions": [
+                285,
+                40
+            ],
+            "image_source": "cc0",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "Group-9.png",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/Group-9.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 2466,
+            "dimensions": [
+                222,
+                40
+            ],
+            "image_source": "cc0",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "Group-10.png",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/Group-10.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 2484,
+            "dimensions": [
+                272,
+                40
+            ],
+            "image_source": "cc0",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "Group-11.png",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/Group-11.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 1922,
+            "dimensions": [
+                207,
+                40
+            ],
+            "image_source": "cc0",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "Group-12.png",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/Group-12.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 2657,
+            "dimensions": [
+                221,
+                40
+            ],
+            "image_source": "cc0",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "Group-13.png",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/Group-13.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 2545,
+            "dimensions": [
+                259,
+                45
+            ],
+            "image_source": "cc0",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "machinery-and-dumping-trucks-outside-a-coal-mining-2026-03-18-06-57-56-utc-1.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/machinery-and-dumping-trucks-outside-a-coal-mining-2026-03-18-06-57-56-utc-1-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 234090,
+            "dimensions": [
+                1500,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/5352ce17-6e56-405b-ba36-4b1cde26f6bd"
+        },
+        {
+            "filename": "blueprint-architect-career-structure-construction-2026-03-18-11-47-06-utc-1.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/blueprint-architect-career-structure-construction-2026-03-18-11-47-06-utc-1-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 136260,
+            "dimensions": [
+                1500,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/b51c285d-aa56-4fa1-bad1-970239ead6b1"
+        },
+        {
+            "filename": "an-earthmoving-construction-grader-tractor-at-a-co-2026-03-25-00-37-10-utc-1.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/an-earthmoving-construction-grader-tractor-at-a-co-2026-03-25-00-37-10-utc-1-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/equipment.json",
+                    "name": "Equipment"
+                }
+            ],
+            "filesize": 210494,
+            "dimensions": [
+                1300,
+                867
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/08175c02-5469-42e8-b80f-bb61d34aa784"
+        },
+        {
+            "filename": "digger-on-a-road-construction-site-2026-03-26-00-22-44-utc-1.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/digger-on-a-road-construction-site-2026-03-26-00-22-44-utc-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/equipment.json",
+                    "name": "Equipment"
+                },
+                {
+                    "source": "templates\/equipment-detail.json",
+                    "name": "Equipment Detail"
+                }
+            ],
+            "filesize": 176720,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/504d8e03-0604-49a1-b6bb-144dfcf8097e"
+        },
+        {
+            "filename": "tractor-building-materials-on-construction-site-2026-01-05-22-56-55-utc.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/tractor-building-materials-on-construction-site-2026-01-05-22-56-55-utc-800x532.jpg",
+            "templates": [
+                {
+                    "source": "templates\/equipment.json",
+                    "name": "Equipment"
+                }
+            ],
+            "filesize": 195727,
+            "dimensions": [
+                1500,
+                998
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/b71ba0a7-816c-4fcb-850e-198471c683f3"
+        },
+        {
+            "filename": "team-4-5.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/team-4-5-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 42014,
+            "dimensions": [
+                961,
+                961
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/217694f8-32ca-4c58-9f7d-0a7906fd4516"
+        },
+        {
+            "filename": "team-5-4.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/team-5-4-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 44517,
+            "dimensions": [
+                961,
+                961
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/217694f8-32ca-4c58-9f7d-0a7906fd4516"
+        },
+        {
+            "filename": "team-6-4.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/team-6-4-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 45646,
+            "dimensions": [
+                961,
+                961
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/217694f8-32ca-4c58-9f7d-0a7906fd4516"
+        },
+        {
+            "filename": "man-working-with-new-equipment-at-factory-2026-03-18-15-40-22-utc-1.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/man-working-with-new-equipment-at-factory-2026-03-18-15-40-22-utc-1-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                }
+            ],
+            "filesize": 147532,
+            "dimensions": [
+                1500,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/1b584f21-612a-4c64-ba04-a68c1f4e39ce"
+        },
+        {
+            "filename": "testimonial-4-3.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/testimonial-4-3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 13427,
+            "dimensions": [
+                400,
+                390
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/755cd174-833c-4cdc-b486-253b41957a9b"
+        },
+        {
+            "filename": "testimonial-5-2.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/testimonial-5-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 15023,
+            "dimensions": [
+                400,
+                390
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/755cd174-833c-4cdc-b486-253b41957a9b"
+        },
+        {
+            "filename": "testimonial-6-2.jpg",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/testimonial-6-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 15298,
+            "dimensions": [
+                400,
+                390
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/app.envato.com\/workspaces\/f985d423-25e4-4884-9113-37898bc344e0\/photos\/755cd174-833c-4cdc-b486-253b41957a9b"
+        },
+        {
+            "filename": "logo-1.png",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/logo-1-800x135.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 21233,
+            "dimensions": [
+                2221,
+                375
+            ],
+            "image_source": "cc0",
+            "image_urls": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/"
+        },
+        {
+            "filename": "logo-2-1.png",
+            "thumbnail_url": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/wp-content\/uploads\/sites\/6\/2026\/03\/logo-2-1-800x135.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 23957,
+            "dimensions": [
+                2221,
+                375
+            ],
+            "image_source": "cc0",
+            "image_urls": "https:\/\/www.wp-templatekit.codeinsolution.com\/rigrent\/"
+        }
+    ]
+}

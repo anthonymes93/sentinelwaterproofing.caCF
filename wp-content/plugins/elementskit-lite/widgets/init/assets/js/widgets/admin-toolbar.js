@@ -1,0 +1,1 @@
+!function(e){"use strict";e(function(){if(e("#wp-admin-bar-elementor_edit_page-default").length>0){let t=e("#wp-admin-bar-elementor_edit_page-default").children("li");e(t).map(function(t,n){var i=e(n).find(".elementor-edit-link-title");-1!==i.text().indexOf("dynamic-content-")&&i.parent().parent().remove()})}})}(jQuery);

@@ -1,0 +1,4632 @@
+
+@font-face {
+  font-family: "Phosphor-Light";
+  src:
+    url("/wp-content/plugins/icon-element/assets/phosphor-light/fonts/Phosphor-Light.woff2") format("woff2"),
+    url("/wp-content/plugins/icon-element/assets/phosphor-light/fonts/Phosphor-Light.woff") format("woff"),
+    url("/wp-content/plugins/icon-element/assets/phosphor-light/fonts/Phosphor-Light.ttf") format("truetype"),
+    url("/wp-content/plugins/icon-element/assets/phosphor-light/fonts/Phosphor-Light.svg#Phosphor-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="phlight-"], [class*=" phlight-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "Phosphor-Light" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.phlight {
+
+}
+
+.phlight-acorn:before {
+  content: "\eb9a";
+}
+.phlight-address-book:before {
+  content: "\e6f8";
+}
+.phlight-address-book-tabs:before {
+  content: "\ee4e";
+}
+.phlight-air-traffic-control:before {
+  content: "\ecd8";
+}
+.phlight-airplane:before {
+  content: "\e002";
+}
+.phlight-airplane-in-flight:before {
+  content: "\e4fe";
+}
+.phlight-airplane-landing:before {
+  content: "\e502";
+}
+.phlight-airplane-takeoff:before {
+  content: "\e504";
+}
+.phlight-airplane-taxiing:before {
+  content: "\e500";
+}
+.phlight-airplane-tilt:before {
+  content: "\e5d6";
+}
+.phlight-airplay:before {
+  content: "\e004";
+}
+.phlight-alarm:before {
+  content: "\e006";
+}
+.phlight-alien:before {
+  content: "\e8a6";
+}
+.phlight-align-bottom:before {
+  content: "\e506";
+}
+.phlight-align-bottom-simple:before {
+  content: "\eb0c";
+}
+.phlight-align-center-horizontal:before {
+  content: "\e50a";
+}
+.phlight-align-center-horizontal-simple:before {
+  content: "\eb0e";
+}
+.phlight-align-center-vertical:before {
+  content: "\e50c";
+}
+.phlight-align-center-vertical-simple:before {
+  content: "\eb10";
+}
+.phlight-align-left:before {
+  content: "\e50e";
+}
+.phlight-align-left-simple:before {
+  content: "\eaee";
+}
+.phlight-align-right:before {
+  content: "\e510";
+}
+.phlight-align-right-simple:before {
+  content: "\eb12";
+}
+.phlight-align-top:before {
+  content: "\e512";
+}
+.phlight-align-top-simple:before {
+  content: "\eb14";
+}
+.phlight-amazon-logo:before {
+  content: "\e96c";
+}
+.phlight-ambulance:before {
+  content: "\e572";
+}
+.phlight-anchor:before {
+  content: "\e514";
+}
+.phlight-anchor-simple:before {
+  content: "\e5d8";
+}
+.phlight-android-logo:before {
+  content: "\e008";
+}
+.phlight-angle:before {
+  content: "\e7bc";
+}
+.phlight-angular-logo:before {
+  content: "\eb80";
+}
+.phlight-aperture:before {
+  content: "\e00a";
+}
+.phlight-app-store-logo:before {
+  content: "\e974";
+}
+.phlight-app-window:before {
+  content: "\e5da";
+}
+.phlight-apple-logo:before {
+  content: "\e516";
+}
+.phlight-apple-podcasts-logo:before {
+  content: "\eb96";
+}
+.phlight-approximate-equals:before {
+  content: "\edaa";
+}
+.phlight-archive:before {
+  content: "\e00c";
+}
+.phlight-armchair:before {
+  content: "\e012";
+}
+.phlight-arrow-arc-left:before {
+  content: "\e014";
+}
+.phlight-arrow-arc-right:before {
+  content: "\e016";
+}
+.phlight-arrow-bend-double-up-left:before {
+  content: "\e03a";
+}
+.phlight-arrow-bend-double-up-right:before {
+  content: "\e03c";
+}
+.phlight-arrow-bend-down-left:before {
+  content: "\e018";
+}
+.phlight-arrow-bend-down-right:before {
+  content: "\e01a";
+}
+.phlight-arrow-bend-left-down:before {
+  content: "\e01c";
+}
+.phlight-arrow-bend-left-up:before {
+  content: "\e01e";
+}
+.phlight-arrow-bend-right-down:before {
+  content: "\e020";
+}
+.phlight-arrow-bend-right-up:before {
+  content: "\e022";
+}
+.phlight-arrow-bend-up-left:before {
+  content: "\e024";
+}
+.phlight-arrow-bend-up-right:before {
+  content: "\e026";
+}
+.phlight-arrow-circle-down:before {
+  content: "\e028";
+}
+.phlight-arrow-circle-down-left:before {
+  content: "\e02a";
+}
+.phlight-arrow-circle-down-right:before {
+  content: "\e02c";
+}
+.phlight-arrow-circle-left:before {
+  content: "\e05a";
+}
+.phlight-arrow-circle-right:before {
+  content: "\e02e";
+}
+.phlight-arrow-circle-up:before {
+  content: "\e030";
+}
+.phlight-arrow-circle-up-left:before {
+  content: "\e032";
+}
+.phlight-arrow-circle-up-right:before {
+  content: "\e034";
+}
+.phlight-arrow-clockwise:before {
+  content: "\e036";
+}
+.phlight-arrow-counter-clockwise:before {
+  content: "\e038";
+}
+.phlight-arrow-down:before {
+  content: "\e03e";
+}
+.phlight-arrow-down-left:before {
+  content: "\e040";
+}
+.phlight-arrow-down-right:before {
+  content: "\e042";
+}
+.phlight-arrow-elbow-down-left:before {
+  content: "\e044";
+}
+.phlight-arrow-elbow-down-right:before {
+  content: "\e046";
+}
+.phlight-arrow-elbow-left:before {
+  content: "\e048";
+}
+.phlight-arrow-elbow-left-down:before {
+  content: "\e04a";
+}
+.phlight-arrow-elbow-left-up:before {
+  content: "\e04c";
+}
+.phlight-arrow-elbow-right:before {
+  content: "\e04e";
+}
+.phlight-arrow-elbow-right-down:before {
+  content: "\e050";
+}
+.phlight-arrow-elbow-right-up:before {
+  content: "\e052";
+}
+.phlight-arrow-elbow-up-left:before {
+  content: "\e054";
+}
+.phlight-arrow-elbow-up-right:before {
+  content: "\e056";
+}
+.phlight-arrow-fat-down:before {
+  content: "\e518";
+}
+.phlight-arrow-fat-left:before {
+  content: "\e51a";
+}
+.phlight-arrow-fat-line-down:before {
+  content: "\e51c";
+}
+.phlight-arrow-fat-line-left:before {
+  content: "\e51e";
+}
+.phlight-arrow-fat-line-right:before {
+  content: "\e520";
+}
+.phlight-arrow-fat-line-up:before {
+  content: "\e522";
+}
+.phlight-arrow-fat-lines-down:before {
+  content: "\e524";
+}
+.phlight-arrow-fat-lines-left:before {
+  content: "\e526";
+}
+.phlight-arrow-fat-lines-right:before {
+  content: "\e528";
+}
+.phlight-arrow-fat-lines-up:before {
+  content: "\e52a";
+}
+.phlight-arrow-fat-right:before {
+  content: "\e52c";
+}
+.phlight-arrow-fat-up:before {
+  content: "\e52e";
+}
+.phlight-arrow-left:before {
+  content: "\e058";
+}
+.phlight-arrow-line-down:before {
+  content: "\e05c";
+}
+.phlight-arrow-line-down-left:before {
+  content: "\e05e";
+}
+.phlight-arrow-line-down-right:before {
+  content: "\e060";
+}
+.phlight-arrow-line-left:before {
+  content: "\e062";
+}
+.phlight-arrow-line-right:before {
+  content: "\e064";
+}
+.phlight-arrow-line-up:before {
+  content: "\e066";
+}
+.phlight-arrow-line-up-left:before {
+  content: "\e068";
+}
+.phlight-arrow-line-up-right:before {
+  content: "\e06a";
+}
+.phlight-arrow-right:before {
+  content: "\e06c";
+}
+.phlight-arrow-square-down:before {
+  content: "\e06e";
+}
+.phlight-arrow-square-down-left:before {
+  content: "\e070";
+}
+.phlight-arrow-square-down-right:before {
+  content: "\e072";
+}
+.phlight-arrow-square-in:before {
+  content: "\e5dc";
+}
+.phlight-arrow-square-left:before {
+  content: "\e074";
+}
+.phlight-arrow-square-out:before {
+  content: "\e5de";
+}
+.phlight-arrow-square-right:before {
+  content: "\e076";
+}
+.phlight-arrow-square-up:before {
+  content: "\e078";
+}
+.phlight-arrow-square-up-left:before {
+  content: "\e07a";
+}
+.phlight-arrow-square-up-right:before {
+  content: "\e07c";
+}
+.phlight-arrow-u-down-left:before {
+  content: "\e07e";
+}
+.phlight-arrow-u-down-right:before {
+  content: "\e080";
+}
+.phlight-arrow-u-left-down:before {
+  content: "\e082";
+}
+.phlight-arrow-u-left-up:before {
+  content: "\e084";
+}
+.phlight-arrow-u-right-down:before {
+  content: "\e086";
+}
+.phlight-arrow-u-right-up:before {
+  content: "\e088";
+}
+.phlight-arrow-u-up-left:before {
+  content: "\e08a";
+}
+.phlight-arrow-u-up-right:before {
+  content: "\e08c";
+}
+.phlight-arrow-up:before {
+  content: "\e08e";
+}
+.phlight-arrow-up-left:before {
+  content: "\e090";
+}
+.phlight-arrow-up-right:before {
+  content: "\e092";
+}
+.phlight-arrows-clockwise:before {
+  content: "\e094";
+}
+.phlight-arrows-counter-clockwise:before {
+  content: "\e096";
+}
+.phlight-arrows-down-up:before {
+  content: "\e098";
+}
+.phlight-arrows-horizontal:before {
+  content: "\eb06";
+}
+.phlight-arrows-in:before {
+  content: "\e09a";
+}
+.phlight-arrows-in-cardinal:before {
+  content: "\e09c";
+}
+.phlight-arrows-in-line-horizontal:before {
+  content: "\e530";
+}
+.phlight-arrows-in-line-vertical:before {
+  content: "\e532";
+}
+.phlight-arrows-in-simple:before {
+  content: "\e09e";
+}
+.phlight-arrows-left-right:before {
+  content: "\e0a0";
+}
+.phlight-arrows-merge:before {
+  content: "\ed3e";
+}
+.phlight-arrows-out:before {
+  content: "\e0a2";
+}
+.phlight-arrows-out-cardinal:before {
+  content: "\e0a4";
+}
+.phlight-arrows-out-line-horizontal:before {
+  content: "\e534";
+}
+.phlight-arrows-out-line-vertical:before {
+  content: "\e536";
+}
+.phlight-arrows-out-simple:before {
+  content: "\e0a6";
+}
+.phlight-arrows-split:before {
+  content: "\ed3c";
+}
+.phlight-arrows-vertical:before {
+  content: "\eb04";
+}
+.phlight-article:before {
+  content: "\e0a8";
+}
+.phlight-article-medium:before {
+  content: "\e5e0";
+}
+.phlight-article-ny-times:before {
+  content: "\e5e2";
+}
+.phlight-asclepius:before {
+  content: "\ee34";
+}
+.phlight-caduceus:before {
+  content: "\ee34";
+}
+.phlight-asterisk:before {
+  content: "\e0aa";
+}
+.phlight-asterisk-simple:before {
+  content: "\e832";
+}
+.phlight-at:before {
+  content: "\e0ac";
+}
+.phlight-atom:before {
+  content: "\e5e4";
+}
+.phlight-avocado:before {
+  content: "\ee04";
+}
+.phlight-axe:before {
+  content: "\e9fc";
+}
+.phlight-baby:before {
+  content: "\e774";
+}
+.phlight-baby-carriage:before {
+  content: "\e818";
+}
+.phlight-backpack:before {
+  content: "\e922";
+}
+.phlight-backspace:before {
+  content: "\e0ae";
+}
+.phlight-bag:before {
+  content: "\e0b0";
+}
+.phlight-bag-simple:before {
+  content: "\e5e6";
+}
+.phlight-balloon:before {
+  content: "\e76c";
+}
+.phlight-bandaids:before {
+  content: "\e0b2";
+}
+.phlight-bank:before {
+  content: "\e0b4";
+}
+.phlight-barbell:before {
+  content: "\e0b6";
+}
+.phlight-barcode:before {
+  content: "\e0b8";
+}
+.phlight-barn:before {
+  content: "\ec72";
+}
+.phlight-barricade:before {
+  content: "\e948";
+}
+.phlight-baseball:before {
+  content: "\e71a";
+}
+.phlight-baseball-cap:before {
+  content: "\ea28";
+}
+.phlight-baseball-helmet:before {
+  content: "\ee4a";
+}
+.phlight-basket:before {
+  content: "\e964";
+}
+.phlight-basketball:before {
+  content: "\e724";
+}
+.phlight-bathtub:before {
+  content: "\e81e";
+}
+.phlight-battery-charging:before {
+  content: "\e0ba";
+}
+.phlight-battery-charging-vertical:before {
+  content: "\e0bc";
+}
+.phlight-battery-empty:before {
+  content: "\e0be";
+}
+.phlight-battery-full:before {
+  content: "\e0c0";
+}
+.phlight-battery-high:before {
+  content: "\e0c2";
+}
+.phlight-battery-low:before {
+  content: "\e0c4";
+}
+.phlight-battery-medium:before {
+  content: "\e0c6";
+}
+.phlight-battery-plus:before {
+  content: "\e808";
+}
+.phlight-battery-plus-vertical:before {
+  content: "\ec50";
+}
+.phlight-battery-vertical-empty:before {
+  content: "\e7c6";
+}
+.phlight-battery-vertical-full:before {
+  content: "\e7c4";
+}
+.phlight-battery-vertical-high:before {
+  content: "\e7c2";
+}
+.phlight-battery-vertical-low:before {
+  content: "\e7be";
+}
+.phlight-battery-vertical-medium:before {
+  content: "\e7c0";
+}
+.phlight-battery-warning:before {
+  content: "\e0c8";
+}
+.phlight-battery-warning-vertical:before {
+  content: "\e0ca";
+}
+.phlight-beach-ball:before {
+  content: "\ed24";
+}
+.phlight-beanie:before {
+  content: "\ea2a";
+}
+.phlight-bed:before {
+  content: "\e0cc";
+}
+.phlight-beer-bottle:before {
+  content: "\e7b0";
+}
+.phlight-beer-stein:before {
+  content: "\eb62";
+}
+.phlight-behance-logo:before {
+  content: "\e7f4";
+}
+.phlight-bell:before {
+  content: "\e0ce";
+}
+.phlight-bell-ringing:before {
+  content: "\e5e8";
+}
+.phlight-bell-simple:before {
+  content: "\e0d0";
+}
+.phlight-bell-simple-ringing:before {
+  content: "\e5ea";
+}
+.phlight-bell-simple-slash:before {
+  content: "\e0d2";
+}
+.phlight-bell-simple-z:before {
+  content: "\e5ec";
+}
+.phlight-bell-slash:before {
+  content: "\e0d4";
+}
+.phlight-bell-z:before {
+  content: "\e5ee";
+}
+.phlight-belt:before {
+  content: "\ea2c";
+}
+.phlight-bezier-curve:before {
+  content: "\eb00";
+}
+.phlight-bicycle:before {
+  content: "\e0d6";
+}
+.phlight-binary:before {
+  content: "\ee60";
+}
+.phlight-binoculars:before {
+  content: "\ea64";
+}
+.phlight-biohazard:before {
+  content: "\e9e0";
+}
+.phlight-bird:before {
+  content: "\e72c";
+}
+.phlight-blueprint:before {
+  content: "\eda0";
+}
+.phlight-bluetooth:before {
+  content: "\e0da";
+}
+.phlight-bluetooth-connected:before {
+  content: "\e0dc";
+}
+.phlight-bluetooth-slash:before {
+  content: "\e0de";
+}
+.phlight-bluetooth-x:before {
+  content: "\e0e0";
+}
+.phlight-boat:before {
+  content: "\e786";
+}
+.phlight-bomb:before {
+  content: "\ee0a";
+}
+.phlight-bone:before {
+  content: "\e7f2";
+}
+.phlight-book:before {
+  content: "\e0e2";
+}
+.phlight-book-bookmark:before {
+  content: "\e0e4";
+}
+.phlight-book-open:before {
+  content: "\e0e6";
+}
+.phlight-book-open-text:before {
+  content: "\e8f2";
+}
+.phlight-book-open-user:before {
+  content: "\ede0";
+}
+.phlight-bookmark:before {
+  content: "\e0e8";
+}
+.phlight-bookmark-simple:before {
+  content: "\e0ea";
+}
+.phlight-bookmarks:before {
+  content: "\e0ec";
+}
+.phlight-bookmarks-simple:before {
+  content: "\e5f0";
+}
+.phlight-books:before {
+  content: "\e758";
+}
+.phlight-boot:before {
+  content: "\ecca";
+}
+.phlight-boules:before {
+  content: "\e722";
+}
+.phlight-bounding-box:before {
+  content: "\e6ce";
+}
+.phlight-bowl-food:before {
+  content: "\eaa4";
+}
+.phlight-bowl-steam:before {
+  content: "\e8e4";
+}
+.phlight-bowling-ball:before {
+  content: "\ea34";
+}
+.phlight-box-arrow-down:before {
+  content: "\e00e";
+}
+.phlight-archive-box:before {
+  content: "\e00e";
+}
+.phlight-box-arrow-up:before {
+  content: "\ee54";
+}
+.phlight-boxing-glove:before {
+  content: "\ea36";
+}
+.phlight-brackets-angle:before {
+  content: "\e862";
+}
+.phlight-brackets-curly:before {
+  content: "\e860";
+}
+.phlight-brackets-round:before {
+  content: "\e864";
+}
+.phlight-brackets-square:before {
+  content: "\e85e";
+}
+.phlight-brain:before {
+  content: "\e74e";
+}
+.phlight-brandy:before {
+  content: "\e6b4";
+}
+.phlight-bread:before {
+  content: "\e81c";
+}
+.phlight-bridge:before {
+  content: "\ea68";
+}
+.phlight-briefcase:before {
+  content: "\e0ee";
+}
+.phlight-briefcase-metal:before {
+  content: "\e5f2";
+}
+.phlight-broadcast:before {
+  content: "\e0f2";
+}
+.phlight-broom:before {
+  content: "\ec54";
+}
+.phlight-browser:before {
+  content: "\e0f4";
+}
+.phlight-browsers:before {
+  content: "\e0f6";
+}
+.phlight-bug:before {
+  content: "\e5f4";
+}
+.phlight-bug-beetle:before {
+  content: "\e5f6";
+}
+.phlight-bug-droid:before {
+  content: "\e5f8";
+}
+.phlight-building:before {
+  content: "\e100";
+}
+.phlight-building-apartment:before {
+  content: "\e0fe";
+}
+.phlight-building-office:before {
+  content: "\e0ff";
+}
+.phlight-buildings:before {
+  content: "\e102";
+}
+.phlight-bulldozer:before {
+  content: "\ec6c";
+}
+.phlight-bus:before {
+  content: "\e106";
+}
+.phlight-butterfly:before {
+  content: "\ea6e";
+}
+.phlight-cable-car:before {
+  content: "\e49c";
+}
+.phlight-cactus:before {
+  content: "\e918";
+}
+.phlight-cake:before {
+  content: "\e780";
+}
+.phlight-calculator:before {
+  content: "\e538";
+}
+.phlight-calendar:before {
+  content: "\e108";
+}
+.phlight-calendar-blank:before {
+  content: "\e10a";
+}
+.phlight-calendar-check:before {
+  content: "\e712";
+}
+.phlight-calendar-dot:before {
+  content: "\e7b2";
+}
+.phlight-calendar-dots:before {
+  content: "\e7b4";
+}
+.phlight-calendar-heart:before {
+  content: "\e8b0";
+}
+.phlight-calendar-minus:before {
+  content: "\ea14";
+}
+.phlight-calendar-plus:before {
+  content: "\e714";
+}
+.phlight-calendar-slash:before {
+  content: "\ea12";
+}
+.phlight-calendar-star:before {
+  content: "\e8b2";
+}
+.phlight-calendar-x:before {
+  content: "\e10c";
+}
+.phlight-call-bell:before {
+  content: "\e7de";
+}
+.phlight-camera:before {
+  content: "\e10e";
+}
+.phlight-camera-plus:before {
+  content: "\ec58";
+}
+.phlight-camera-rotate:before {
+  content: "\e7a4";
+}
+.phlight-camera-slash:before {
+  content: "\e110";
+}
+.phlight-campfire:before {
+  content: "\e9d8";
+}
+.phlight-car:before {
+  content: "\e112";
+}
+.phlight-car-battery:before {
+  content: "\ee30";
+}
+.phlight-car-profile:before {
+  content: "\e8cc";
+}
+.phlight-car-simple:before {
+  content: "\e114";
+}
+.phlight-cardholder:before {
+  content: "\e5fa";
+}
+.phlight-cards:before {
+  content: "\e0f8";
+}
+.phlight-cards-three:before {
+  content: "\ee50";
+}
+.phlight-caret-circle-double-down:before {
+  content: "\e116";
+}
+.phlight-caret-circle-double-left:before {
+  content: "\e118";
+}
+.phlight-caret-circle-double-right:before {
+  content: "\e11a";
+}
+.phlight-caret-circle-double-up:before {
+  content: "\e11c";
+}
+.phlight-caret-circle-down:before {
+  content: "\e11e";
+}
+.phlight-caret-circle-left:before {
+  content: "\e120";
+}
+.phlight-caret-circle-right:before {
+  content: "\e122";
+}
+.phlight-caret-circle-up:before {
+  content: "\e124";
+}
+.phlight-caret-circle-up-down:before {
+  content: "\e13e";
+}
+.phlight-caret-double-down:before {
+  content: "\e126";
+}
+.phlight-caret-double-left:before {
+  content: "\e128";
+}
+.phlight-caret-double-right:before {
+  content: "\e12a";
+}
+.phlight-caret-double-up:before {
+  content: "\e12c";
+}
+.phlight-caret-down:before {
+  content: "\e136";
+}
+.phlight-caret-left:before {
+  content: "\e138";
+}
+.phlight-caret-line-down:before {
+  content: "\e134";
+}
+.phlight-caret-line-left:before {
+  content: "\e132";
+}
+.phlight-caret-line-right:before {
+  content: "\e130";
+}
+.phlight-caret-line-up:before {
+  content: "\e12e";
+}
+.phlight-caret-right:before {
+  content: "\e13a";
+}
+.phlight-caret-up:before {
+  content: "\e13c";
+}
+.phlight-caret-up-down:before {
+  content: "\e140";
+}
+.phlight-carrot:before {
+  content: "\ed38";
+}
+.phlight-cash-register:before {
+  content: "\ed80";
+}
+.phlight-cassette-tape:before {
+  content: "\ed2e";
+}
+.phlight-castle-turret:before {
+  content: "\e9d0";
+}
+.phlight-cat:before {
+  content: "\e748";
+}
+.phlight-cell-signal-full:before {
+  content: "\e142";
+}
+.phlight-cell-signal-high:before {
+  content: "\e144";
+}
+.phlight-cell-signal-low:before {
+  content: "\e146";
+}
+.phlight-cell-signal-medium:before {
+  content: "\e148";
+}
+.phlight-cell-signal-none:before {
+  content: "\e14a";
+}
+.phlight-cell-signal-slash:before {
+  content: "\e14c";
+}
+.phlight-cell-signal-x:before {
+  content: "\e14e";
+}
+.phlight-cell-tower:before {
+  content: "\ebaa";
+}
+.phlight-certificate:before {
+  content: "\e766";
+}
+.phlight-chair:before {
+  content: "\e950";
+}
+.phlight-chalkboard:before {
+  content: "\e5fc";
+}
+.phlight-chalkboard-simple:before {
+  content: "\e5fe";
+}
+.phlight-chalkboard-teacher:before {
+  content: "\e600";
+}
+.phlight-champagne:before {
+  content: "\eaca";
+}
+.phlight-charging-station:before {
+  content: "\e8d0";
+}
+.phlight-chart-bar:before {
+  content: "\e150";
+}
+.phlight-chart-bar-horizontal:before {
+  content: "\e152";
+}
+.phlight-chart-donut:before {
+  content: "\eaa6";
+}
+.phlight-chart-line:before {
+  content: "\e154";
+}
+.phlight-chart-line-down:before {
+  content: "\e8b6";
+}
+.phlight-chart-line-up:before {
+  content: "\e156";
+}
+.phlight-chart-pie:before {
+  content: "\e158";
+}
+.phlight-chart-pie-slice:before {
+  content: "\e15a";
+}
+.phlight-chart-polar:before {
+  content: "\eaa8";
+}
+.phlight-chart-scatter:before {
+  content: "\eaac";
+}
+.phlight-chat:before {
+  content: "\e15c";
+}
+.phlight-chat-centered:before {
+  content: "\e160";
+}
+.phlight-chat-centered-dots:before {
+  content: "\e164";
+}
+.phlight-chat-centered-slash:before {
+  content: "\e162";
+}
+.phlight-chat-centered-text:before {
+  content: "\e166";
+}
+.phlight-chat-circle:before {
+  content: "\e168";
+}
+.phlight-chat-circle-dots:before {
+  content: "\e16c";
+}
+.phlight-chat-circle-slash:before {
+  content: "\e16a";
+}
+.phlight-chat-circle-text:before {
+  content: "\e16e";
+}
+.phlight-chat-dots:before {
+  content: "\e170";
+}
+.phlight-chat-slash:before {
+  content: "\e15e";
+}
+.phlight-chat-teardrop:before {
+  content: "\e172";
+}
+.phlight-chat-teardrop-dots:before {
+  content: "\e176";
+}
+.phlight-chat-teardrop-slash:before {
+  content: "\e174";
+}
+.phlight-chat-teardrop-text:before {
+  content: "\e178";
+}
+.phlight-chat-text:before {
+  content: "\e17a";
+}
+.phlight-chats:before {
+  content: "\e17c";
+}
+.phlight-chats-circle:before {
+  content: "\e17e";
+}
+.phlight-chats-teardrop:before {
+  content: "\e180";
+}
+.phlight-check:before {
+  content: "\e182";
+}
+.phlight-check-circle:before {
+  content: "\e184";
+}
+.phlight-check-fat:before {
+  content: "\eba6";
+}
+.phlight-check-square:before {
+  content: "\e186";
+}
+.phlight-check-square-offset:before {
+  content: "\e188";
+}
+.phlight-checkerboard:before {
+  content: "\e8c4";
+}
+.phlight-checks:before {
+  content: "\e53a";
+}
+.phlight-cheers:before {
+  content: "\ea4a";
+}
+.phlight-cheese:before {
+  content: "\e9fe";
+}
+.phlight-chef-hat:before {
+  content: "\ed8e";
+}
+.phlight-cherries:before {
+  content: "\e830";
+}
+.phlight-church:before {
+  content: "\ecea";
+}
+.phlight-cigarette:before {
+  content: "\ed90";
+}
+.phlight-cigarette-slash:before {
+  content: "\ed92";
+}
+.phlight-circle:before {
+  content: "\e18a";
+}
+.phlight-circle-dashed:before {
+  content: "\e602";
+}
+.phlight-circle-half:before {
+  content: "\e18c";
+}
+.phlight-circle-half-tilt:before {
+  content: "\e18e";
+}
+.phlight-circle-notch:before {
+  content: "\eb44";
+}
+.phlight-circles-four:before {
+  content: "\e190";
+}
+.phlight-circles-three:before {
+  content: "\e192";
+}
+.phlight-circles-three-plus:before {
+  content: "\e194";
+}
+.phlight-circuitry:before {
+  content: "\e9c2";
+}
+.phlight-city:before {
+  content: "\ea6a";
+}
+.phlight-clipboard:before {
+  content: "\e196";
+}
+.phlight-clipboard-text:before {
+  content: "\e198";
+}
+.phlight-clock:before {
+  content: "\e19a";
+}
+.phlight-clock-afternoon:before {
+  content: "\e19c";
+}
+.phlight-clock-clockwise:before {
+  content: "\e19e";
+}
+.phlight-clock-countdown:before {
+  content: "\ed2c";
+}
+.phlight-clock-counter-clockwise:before {
+  content: "\e1a0";
+}
+.phlight-clock-user:before {
+  content: "\edec";
+}
+.phlight-closed-captioning:before {
+  content: "\e1a4";
+}
+.phlight-cloud:before {
+  content: "\e1aa";
+}
+.phlight-cloud-arrow-down:before {
+  content: "\e1ac";
+}
+.phlight-cloud-arrow-up:before {
+  content: "\e1ae";
+}
+.phlight-cloud-check:before {
+  content: "\e1b0";
+}
+.phlight-cloud-fog:before {
+  content: "\e53c";
+}
+.phlight-cloud-lightning:before {
+  content: "\e1b2";
+}
+.phlight-cloud-moon:before {
+  content: "\e53e";
+}
+.phlight-cloud-rain:before {
+  content: "\e1b4";
+}
+.phlight-cloud-slash:before {
+  content: "\e1b6";
+}
+.phlight-cloud-snow:before {
+  content: "\e1b8";
+}
+.phlight-cloud-sun:before {
+  content: "\e540";
+}
+.phlight-cloud-warning:before {
+  content: "\ea98";
+}
+.phlight-cloud-x:before {
+  content: "\ea96";
+}
+.phlight-clover:before {
+  content: "\edc8";
+}
+.phlight-club:before {
+  content: "\e1ba";
+}
+.phlight-coat-hanger:before {
+  content: "\e7fe";
+}
+.phlight-coda-logo:before {
+  content: "\e7ce";
+}
+.phlight-code:before {
+  content: "\e1bc";
+}
+.phlight-code-block:before {
+  content: "\eafe";
+}
+.phlight-code-simple:before {
+  content: "\e1be";
+}
+.phlight-codepen-logo:before {
+  content: "\e978";
+}
+.phlight-codesandbox-logo:before {
+  content: "\ea06";
+}
+.phlight-coffee:before {
+  content: "\e1c2";
+}
+.phlight-coffee-bean:before {
+  content: "\e1c0";
+}
+.phlight-coin:before {
+  content: "\e60e";
+}
+.phlight-coin-vertical:before {
+  content: "\eb48";
+}
+.phlight-coins:before {
+  content: "\e78e";
+}
+.phlight-columns:before {
+  content: "\e546";
+}
+.phlight-columns-plus-left:before {
+  content: "\e544";
+}
+.phlight-columns-plus-right:before {
+  content: "\e542";
+}
+.phlight-command:before {
+  content: "\e1c4";
+}
+.phlight-compass:before {
+  content: "\e1c8";
+}
+.phlight-compass-rose:before {
+  content: "\e1c6";
+}
+.phlight-compass-tool:before {
+  content: "\ea0e";
+}
+.phlight-computer-tower:before {
+  content: "\e548";
+}
+.phlight-confetti:before {
+  content: "\e81a";
+}
+.phlight-contactless-payment:before {
+  content: "\ed42";
+}
+.phlight-control:before {
+  content: "\eca6";
+}
+.phlight-cookie:before {
+  content: "\e6ca";
+}
+.phlight-cooking-pot:before {
+  content: "\e764";
+}
+.phlight-copy:before {
+  content: "\e1ca";
+}
+.phlight-copy-simple:before {
+  content: "\e1cc";
+}
+.phlight-copyleft:before {
+  content: "\e86a";
+}
+.phlight-copyright:before {
+  content: "\e54a";
+}
+.phlight-corners-in:before {
+  content: "\e1ce";
+}
+.phlight-corners-out:before {
+  content: "\e1d0";
+}
+.phlight-couch:before {
+  content: "\e7f6";
+}
+.phlight-court-basketball:before {
+  content: "\ee36";
+}
+.phlight-cow:before {
+  content: "\eabe";
+}
+.phlight-cowboy-hat:before {
+  content: "\ed12";
+}
+.phlight-cpu:before {
+  content: "\e610";
+}
+.phlight-crane:before {
+  content: "\ed48";
+}
+.phlight-crane-tower:before {
+  content: "\ed49";
+}
+.phlight-credit-card:before {
+  content: "\e1d2";
+}
+.phlight-cricket:before {
+  content: "\ee12";
+}
+.phlight-crop:before {
+  content: "\e1d4";
+}
+.phlight-cross:before {
+  content: "\e8a0";
+}
+.phlight-crosshair:before {
+  content: "\e1d6";
+}
+.phlight-crosshair-simple:before {
+  content: "\e1d8";
+}
+.phlight-crown:before {
+  content: "\e614";
+}
+.phlight-crown-cross:before {
+  content: "\ee5e";
+}
+.phlight-crown-simple:before {
+  content: "\e616";
+}
+.phlight-cube:before {
+  content: "\e1da";
+}
+.phlight-cube-focus:before {
+  content: "\ed0a";
+}
+.phlight-cube-transparent:before {
+  content: "\ec7c";
+}
+.phlight-currency-btc:before {
+  content: "\e618";
+}
+.phlight-currency-circle-dollar:before {
+  content: "\e54c";
+}
+.phlight-currency-cny:before {
+  content: "\e54e";
+}
+.phlight-currency-dollar:before {
+  content: "\e550";
+}
+.phlight-currency-dollar-simple:before {
+  content: "\e552";
+}
+.phlight-currency-eth:before {
+  content: "\eada";
+}
+.phlight-currency-eur:before {
+  content: "\e554";
+}
+.phlight-currency-gbp:before {
+  content: "\e556";
+}
+.phlight-currency-inr:before {
+  content: "\e558";
+}
+.phlight-currency-jpy:before {
+  content: "\e55a";
+}
+.phlight-currency-krw:before {
+  content: "\e55c";
+}
+.phlight-currency-kzt:before {
+  content: "\ec4c";
+}
+.phlight-currency-ngn:before {
+  content: "\eb52";
+}
+.phlight-currency-rub:before {
+  content: "\e55e";
+}
+.phlight-cursor:before {
+  content: "\e1dc";
+}
+.phlight-cursor-click:before {
+  content: "\e7c8";
+}
+.phlight-cursor-text:before {
+  content: "\e7d8";
+}
+.phlight-cylinder:before {
+  content: "\e8fc";
+}
+.phlight-database:before {
+  content: "\e1de";
+}
+.phlight-desk:before {
+  content: "\ed16";
+}
+.phlight-desktop:before {
+  content: "\e560";
+}
+.phlight-desktop-tower:before {
+  content: "\e562";
+}
+.phlight-detective:before {
+  content: "\e83e";
+}
+.phlight-dev-to-logo:before {
+  content: "\ed0e";
+}
+.phlight-device-mobile:before {
+  content: "\e1e0";
+}
+.phlight-device-mobile-camera:before {
+  content: "\e1e2";
+}
+.phlight-device-mobile-slash:before {
+  content: "\ee46";
+}
+.phlight-device-mobile-speaker:before {
+  content: "\e1e4";
+}
+.phlight-device-rotate:before {
+  content: "\edf2";
+}
+.phlight-device-tablet:before {
+  content: "\e1e6";
+}
+.phlight-device-tablet-camera:before {
+  content: "\e1e8";
+}
+.phlight-device-tablet-speaker:before {
+  content: "\e1ea";
+}
+.phlight-devices:before {
+  content: "\eba4";
+}
+.phlight-diamond:before {
+  content: "\e1ec";
+}
+.phlight-diamonds-four:before {
+  content: "\e8f4";
+}
+.phlight-dice-five:before {
+  content: "\e1ee";
+}
+.phlight-dice-four:before {
+  content: "\e1f0";
+}
+.phlight-dice-one:before {
+  content: "\e1f2";
+}
+.phlight-dice-six:before {
+  content: "\e1f4";
+}
+.phlight-dice-three:before {
+  content: "\e1f6";
+}
+.phlight-dice-two:before {
+  content: "\e1f8";
+}
+.phlight-disc:before {
+  content: "\e564";
+}
+.phlight-disco-ball:before {
+  content: "\ed98";
+}
+.phlight-discord-logo:before {
+  content: "\e61a";
+}
+.phlight-divide:before {
+  content: "\e1fa";
+}
+.phlight-dna:before {
+  content: "\e924";
+}
+.phlight-dog:before {
+  content: "\e74a";
+}
+.phlight-door:before {
+  content: "\e61c";
+}
+.phlight-door-open:before {
+  content: "\e7e6";
+}
+.phlight-dot:before {
+  content: "\ecde";
+}
+.phlight-dot-outline:before {
+  content: "\ece0";
+}
+.phlight-dots-nine:before {
+  content: "\e1fc";
+}
+.phlight-dots-six:before {
+  content: "\e794";
+}
+.phlight-dots-six-vertical:before {
+  content: "\eae2";
+}
+.phlight-dots-three:before {
+  content: "\e1fe";
+}
+.phlight-dots-three-circle:before {
+  content: "\e200";
+}
+.phlight-dots-three-circle-vertical:before {
+  content: "\e202";
+}
+.phlight-dots-three-outline:before {
+  content: "\e204";
+}
+.phlight-dots-three-outline-vertical:before {
+  content: "\e206";
+}
+.phlight-dots-three-vertical:before {
+  content: "\e208";
+}
+.phlight-download:before {
+  content: "\e20a";
+}
+.phlight-download-simple:before {
+  content: "\e20c";
+}
+.phlight-dress:before {
+  content: "\ea7e";
+}
+.phlight-dresser:before {
+  content: "\e94e";
+}
+.phlight-dribbble-logo:before {
+  content: "\e20e";
+}
+.phlight-drone:before {
+  content: "\ed74";
+}
+.phlight-drop:before {
+  content: "\e210";
+}
+.phlight-drop-half:before {
+  content: "\e566";
+}
+.phlight-drop-half-bottom:before {
+  content: "\eb40";
+}
+.phlight-drop-simple:before {
+  content: "\ee32";
+}
+.phlight-drop-slash:before {
+  content: "\e954";
+}
+.phlight-dropbox-logo:before {
+  content: "\e7d0";
+}
+.phlight-ear:before {
+  content: "\e70c";
+}
+.phlight-ear-slash:before {
+  content: "\e70e";
+}
+.phlight-egg:before {
+  content: "\e812";
+}
+.phlight-egg-crack:before {
+  content: "\eb64";
+}
+.phlight-eject:before {
+  content: "\e212";
+}
+.phlight-eject-simple:before {
+  content: "\e6ae";
+}
+.phlight-elevator:before {
+  content: "\ecc0";
+}
+.phlight-empty:before {
+  content: "\edbc";
+}
+.phlight-engine:before {
+  content: "\ea80";
+}
+.phlight-envelope:before {
+  content: "\e214";
+}
+.phlight-envelope-open:before {
+  content: "\e216";
+}
+.phlight-envelope-simple:before {
+  content: "\e218";
+}
+.phlight-envelope-simple-open:before {
+  content: "\e21a";
+}
+.phlight-equalizer:before {
+  content: "\ebbc";
+}
+.phlight-equals:before {
+  content: "\e21c";
+}
+.phlight-eraser:before {
+  content: "\e21e";
+}
+.phlight-escalator-down:before {
+  content: "\ecba";
+}
+.phlight-escalator-up:before {
+  content: "\ecbc";
+}
+.phlight-exam:before {
+  content: "\e742";
+}
+.phlight-exclamation-mark:before {
+  content: "\ee44";
+}
+.phlight-exclude:before {
+  content: "\e882";
+}
+.phlight-exclude-square:before {
+  content: "\e880";
+}
+.phlight-export:before {
+  content: "\eaf0";
+}
+.phlight-eye:before {
+  content: "\e220";
+}
+.phlight-eye-closed:before {
+  content: "\e222";
+}
+.phlight-eye-slash:before {
+  content: "\e224";
+}
+.phlight-eyedropper:before {
+  content: "\e568";
+}
+.phlight-eyedropper-sample:before {
+  content: "\eac4";
+}
+.phlight-eyeglasses:before {
+  content: "\e7ba";
+}
+.phlight-eyes:before {
+  content: "\ee5c";
+}
+.phlight-face-mask:before {
+  content: "\e56a";
+}
+.phlight-facebook-logo:before {
+  content: "\e226";
+}
+.phlight-factory:before {
+  content: "\e760";
+}
+.phlight-faders:before {
+  content: "\e228";
+}
+.phlight-faders-horizontal:before {
+  content: "\e22a";
+}
+.phlight-fallout-shelter:before {
+  content: "\e9de";
+}
+.phlight-fan:before {
+  content: "\e9f2";
+}
+.phlight-farm:before {
+  content: "\ec70";
+}
+.phlight-fast-forward:before {
+  content: "\e6a6";
+}
+.phlight-fast-forward-circle:before {
+  content: "\e22c";
+}
+.phlight-feather:before {
+  content: "\e9c0";
+}
+.phlight-fediverse-logo:before {
+  content: "\ed66";
+}
+.phlight-figma-logo:before {
+  content: "\e22e";
+}
+.phlight-file:before {
+  content: "\e230";
+}
+.phlight-file-archive:before {
+  content: "\eb2a";
+}
+.phlight-file-arrow-down:before {
+  content: "\e232";
+}
+.phlight-file-arrow-up:before {
+  content: "\e61e";
+}
+.phlight-file-audio:before {
+  content: "\ea20";
+}
+.phlight-file-c:before {
+  content: "\eb32";
+}
+.phlight-file-c-sharp:before {
+  content: "\eb30";
+}
+.phlight-file-cloud:before {
+  content: "\e95e";
+}
+.phlight-file-code:before {
+  content: "\e914";
+}
+.phlight-file-cpp:before {
+  content: "\eb2e";
+}
+.phlight-file-css:before {
+  content: "\eb34";
+}
+.phlight-file-csv:before {
+  content: "\eb1c";
+}
+.phlight-file-dashed:before {
+  content: "\e704";
+}
+.phlight-file-dotted:before {
+  content: "\e704";
+}
+.phlight-file-doc:before {
+  content: "\eb1e";
+}
+.phlight-file-html:before {
+  content: "\eb38";
+}
+.phlight-file-image:before {
+  content: "\ea24";
+}
+.phlight-file-ini:before {
+  content: "\eb33";
+}
+.phlight-file-jpg:before {
+  content: "\eb1a";
+}
+.phlight-file-js:before {
+  content: "\eb24";
+}
+.phlight-file-jsx:before {
+  content: "\eb3a";
+}
+.phlight-file-lock:before {
+  content: "\e95c";
+}
+.phlight-file-magnifying-glass:before {
+  content: "\e238";
+}
+.phlight-file-search:before {
+  content: "\e238";
+}
+.phlight-file-md:before {
+  content: "\ed50";
+}
+.phlight-file-minus:before {
+  content: "\e234";
+}
+.phlight-file-pdf:before {
+  content: "\e702";
+}
+.phlight-file-plus:before {
+  content: "\e236";
+}
+.phlight-file-png:before {
+  content: "\eb18";
+}
+.phlight-file-ppt:before {
+  content: "\eb20";
+}
+.phlight-file-py:before {
+  content: "\eb2c";
+}
+.phlight-file-rs:before {
+  content: "\eb28";
+}
+.phlight-file-sql:before {
+  content: "\ed4e";
+}
+.phlight-file-svg:before {
+  content: "\ed08";
+}
+.phlight-file-text:before {
+  content: "\e23a";
+}
+.phlight-file-ts:before {
+  content: "\eb26";
+}
+.phlight-file-tsx:before {
+  content: "\eb3c";
+}
+.phlight-file-txt:before {
+  content: "\eb35";
+}
+.phlight-file-video:before {
+  content: "\ea22";
+}
+.phlight-file-vue:before {
+  content: "\eb3e";
+}
+.phlight-file-x:before {
+  content: "\e23c";
+}
+.phlight-file-xls:before {
+  content: "\eb22";
+}
+.phlight-file-zip:before {
+  content: "\e958";
+}
+.phlight-files:before {
+  content: "\e710";
+}
+.phlight-film-reel:before {
+  content: "\e8c0";
+}
+.phlight-film-script:before {
+  content: "\eb50";
+}
+.phlight-film-slate:before {
+  content: "\e8c2";
+}
+.phlight-film-strip:before {
+  content: "\e792";
+}
+.phlight-fingerprint:before {
+  content: "\e23e";
+}
+.phlight-fingerprint-simple:before {
+  content: "\e240";
+}
+.phlight-finn-the-human:before {
+  content: "\e56c";
+}
+.phlight-fire:before {
+  content: "\e242";
+}
+.phlight-fire-extinguisher:before {
+  content: "\e9e8";
+}
+.phlight-fire-simple:before {
+  content: "\e620";
+}
+.phlight-fire-truck:before {
+  content: "\e574";
+}
+.phlight-first-aid:before {
+  content: "\e56e";
+}
+.phlight-first-aid-kit:before {
+  content: "\e570";
+}
+.phlight-fish:before {
+  content: "\e728";
+}
+.phlight-fish-simple:before {
+  content: "\e72a";
+}
+.phlight-flag:before {
+  content: "\e244";
+}
+.phlight-flag-banner:before {
+  content: "\e622";
+}
+.phlight-flag-banner-fold:before {
+  content: "\ecf2";
+}
+.phlight-flag-checkered:before {
+  content: "\ea38";
+}
+.phlight-flag-pennant:before {
+  content: "\ecf0";
+}
+.phlight-flame:before {
+  content: "\e624";
+}
+.phlight-flashlight:before {
+  content: "\e246";
+}
+.phlight-flask:before {
+  content: "\e79e";
+}
+.phlight-flip-horizontal:before {
+  content: "\ed6a";
+}
+.phlight-flip-vertical:before {
+  content: "\ed6c";
+}
+.phlight-floppy-disk:before {
+  content: "\e248";
+}
+.phlight-floppy-disk-back:before {
+  content: "\eaf4";
+}
+.phlight-flow-arrow:before {
+  content: "\e6ec";
+}
+.phlight-flower:before {
+  content: "\e75e";
+}
+.phlight-flower-lotus:before {
+  content: "\e6cc";
+}
+.phlight-flower-tulip:before {
+  content: "\eacc";
+}
+.phlight-flying-saucer:before {
+  content: "\eb4a";
+}
+.phlight-folder:before {
+  content: "\e24a";
+}
+.phlight-folder-notch:before {
+  content: "\e24a";
+}
+.phlight-folder-dashed:before {
+  content: "\e8f8";
+}
+.phlight-folder-dotted:before {
+  content: "\e8f8";
+}
+.phlight-folder-lock:before {
+  content: "\ea3c";
+}
+.phlight-folder-minus:before {
+  content: "\e254";
+}
+.phlight-folder-notch-minus:before {
+  content: "\e254";
+}
+.phlight-folder-open:before {
+  content: "\e256";
+}
+.phlight-folder-notch-open:before {
+  content: "\e256";
+}
+.phlight-folder-plus:before {
+  content: "\e258";
+}
+.phlight-folder-notch-plus:before {
+  content: "\e258";
+}
+.phlight-folder-simple:before {
+  content: "\e25a";
+}
+.phlight-folder-simple-dashed:before {
+  content: "\ec2a";
+}
+.phlight-folder-simple-dotted:before {
+  content: "\ec2a";
+}
+.phlight-folder-simple-lock:before {
+  content: "\eb5e";
+}
+.phlight-folder-simple-minus:before {
+  content: "\e25c";
+}
+.phlight-folder-simple-plus:before {
+  content: "\e25e";
+}
+.phlight-folder-simple-star:before {
+  content: "\ec2e";
+}
+.phlight-folder-simple-user:before {
+  content: "\eb60";
+}
+.phlight-folder-star:before {
+  content: "\ea86";
+}
+.phlight-folder-user:before {
+  content: "\eb46";
+}
+.phlight-folders:before {
+  content: "\e260";
+}
+.phlight-football:before {
+  content: "\e718";
+}
+.phlight-football-helmet:before {
+  content: "\ee4c";
+}
+.phlight-footprints:before {
+  content: "\ea88";
+}
+.phlight-fork-knife:before {
+  content: "\e262";
+}
+.phlight-four-k:before {
+  content: "\ea5c";
+}
+.phlight-frame-corners:before {
+  content: "\e626";
+}
+.phlight-framer-logo:before {
+  content: "\e264";
+}
+.phlight-function:before {
+  content: "\ebe4";
+}
+.phlight-funnel:before {
+  content: "\e266";
+}
+.phlight-funnel-simple:before {
+  content: "\e268";
+}
+.phlight-funnel-simple-x:before {
+  content: "\e26a";
+}
+.phlight-funnel-x:before {
+  content: "\e26c";
+}
+.phlight-game-controller:before {
+  content: "\e26e";
+}
+.phlight-garage:before {
+  content: "\ecd6";
+}
+.phlight-gas-can:before {
+  content: "\e8ce";
+}
+.phlight-gas-pump:before {
+  content: "\e768";
+}
+.phlight-gauge:before {
+  content: "\e628";
+}
+.phlight-gavel:before {
+  content: "\ea32";
+}
+.phlight-gear:before {
+  content: "\e270";
+}
+.phlight-gear-fine:before {
+  content: "\e87c";
+}
+.phlight-gear-six:before {
+  content: "\e272";
+}
+.phlight-gender-female:before {
+  content: "\e6e0";
+}
+.phlight-gender-intersex:before {
+  content: "\e6e6";
+}
+.phlight-gender-male:before {
+  content: "\e6e2";
+}
+.phlight-gender-neuter:before {
+  content: "\e6ea";
+}
+.phlight-gender-nonbinary:before {
+  content: "\e6e4";
+}
+.phlight-gender-transgender:before {
+  content: "\e6e8";
+}
+.phlight-ghost:before {
+  content: "\e62a";
+}
+.phlight-gif:before {
+  content: "\e274";
+}
+.phlight-gift:before {
+  content: "\e276";
+}
+.phlight-git-branch:before {
+  content: "\e278";
+}
+.phlight-git-commit:before {
+  content: "\e27a";
+}
+.phlight-git-diff:before {
+  content: "\e27c";
+}
+.phlight-git-fork:before {
+  content: "\e27e";
+}
+.phlight-git-merge:before {
+  content: "\e280";
+}
+.phlight-git-pull-request:before {
+  content: "\e282";
+}
+.phlight-github-logo:before {
+  content: "\e576";
+}
+.phlight-gitlab-logo:before {
+  content: "\e694";
+}
+.phlight-gitlab-logo-simple:before {
+  content: "\e696";
+}
+.phlight-globe:before {
+  content: "\e288";
+}
+.phlight-globe-hemisphere-east:before {
+  content: "\e28a";
+}
+.phlight-globe-hemisphere-west:before {
+  content: "\e28c";
+}
+.phlight-globe-simple:before {
+  content: "\e28e";
+}
+.phlight-globe-simple-x:before {
+  content: "\e284";
+}
+.phlight-globe-stand:before {
+  content: "\e290";
+}
+.phlight-globe-x:before {
+  content: "\e286";
+}
+.phlight-goggles:before {
+  content: "\ecb4";
+}
+.phlight-golf:before {
+  content: "\ea3e";
+}
+.phlight-goodreads-logo:before {
+  content: "\ed10";
+}
+.phlight-google-cardboard-logo:before {
+  content: "\e7b6";
+}
+.phlight-google-chrome-logo:before {
+  content: "\e976";
+}
+.phlight-google-drive-logo:before {
+  content: "\e8f6";
+}
+.phlight-google-logo:before {
+  content: "\e292";
+}
+.phlight-google-photos-logo:before {
+  content: "\eb92";
+}
+.phlight-google-play-logo:before {
+  content: "\e294";
+}
+.phlight-google-podcasts-logo:before {
+  content: "\eb94";
+}
+.phlight-gps:before {
+  content: "\edd8";
+}
+.phlight-gps-fix:before {
+  content: "\edd6";
+}
+.phlight-gps-slash:before {
+  content: "\edd4";
+}
+.phlight-gradient:before {
+  content: "\eb42";
+}
+.phlight-graduation-cap:before {
+  content: "\e62c";
+}
+.phlight-grains:before {
+  content: "\ec68";
+}
+.phlight-grains-slash:before {
+  content: "\ec6a";
+}
+.phlight-graph:before {
+  content: "\eb58";
+}
+.phlight-graphics-card:before {
+  content: "\e612";
+}
+.phlight-greater-than:before {
+  content: "\edc4";
+}
+.phlight-greater-than-or-equal:before {
+  content: "\eda2";
+}
+.phlight-grid-four:before {
+  content: "\e296";
+}
+.phlight-grid-nine:before {
+  content: "\ec8c";
+}
+.phlight-guitar:before {
+  content: "\ea8a";
+}
+.phlight-hair-dryer:before {
+  content: "\ea66";
+}
+.phlight-hamburger:before {
+  content: "\e790";
+}
+.phlight-hammer:before {
+  content: "\e80e";
+}
+.phlight-hand:before {
+  content: "\e298";
+}
+.phlight-hand-arrow-down:before {
+  content: "\ea4e";
+}
+.phlight-hand-arrow-up:before {
+  content: "\ee5a";
+}
+.phlight-hand-coins:before {
+  content: "\ea8c";
+}
+.phlight-hand-deposit:before {
+  content: "\ee82";
+}
+.phlight-hand-eye:before {
+  content: "\ea4c";
+}
+.phlight-hand-fist:before {
+  content: "\e57a";
+}
+.phlight-hand-grabbing:before {
+  content: "\e57c";
+}
+.phlight-hand-heart:before {
+  content: "\e810";
+}
+.phlight-hand-palm:before {
+  content: "\e57e";
+}
+.phlight-hand-peace:before {
+  content: "\e7cc";
+}
+.phlight-hand-pointing:before {
+  content: "\e29a";
+}
+.phlight-hand-soap:before {
+  content: "\e630";
+}
+.phlight-hand-swipe-left:before {
+  content: "\ec94";
+}
+.phlight-hand-swipe-right:before {
+  content: "\ec92";
+}
+.phlight-hand-tap:before {
+  content: "\ec90";
+}
+.phlight-hand-waving:before {
+  content: "\e580";
+}
+.phlight-hand-withdraw:before {
+  content: "\ee80";
+}
+.phlight-handbag:before {
+  content: "\e29c";
+}
+.phlight-handbag-simple:before {
+  content: "\e62e";
+}
+.phlight-hands-clapping:before {
+  content: "\e6a0";
+}
+.phlight-hands-praying:before {
+  content: "\ecc8";
+}
+.phlight-handshake:before {
+  content: "\e582";
+}
+.phlight-hard-drive:before {
+  content: "\e29e";
+}
+.phlight-hard-drives:before {
+  content: "\e2a0";
+}
+.phlight-hard-hat:before {
+  content: "\ed46";
+}
+.phlight-hash:before {
+  content: "\e2a2";
+}
+.phlight-hash-straight:before {
+  content: "\e2a4";
+}
+.phlight-head-circuit:before {
+  content: "\e7d4";
+}
+.phlight-headlights:before {
+  content: "\e6fe";
+}
+.phlight-headphones:before {
+  content: "\e2a6";
+}
+.phlight-headset:before {
+  content: "\e584";
+}
+.phlight-heart:before {
+  content: "\e2a8";
+}
+.phlight-heart-break:before {
+  content: "\ebe8";
+}
+.phlight-heart-half:before {
+  content: "\ec48";
+}
+.phlight-heart-straight:before {
+  content: "\e2aa";
+}
+.phlight-heart-straight-break:before {
+  content: "\eb98";
+}
+.phlight-heartbeat:before {
+  content: "\e2ac";
+}
+.phlight-hexagon:before {
+  content: "\e2ae";
+}
+.phlight-high-definition:before {
+  content: "\ea8e";
+}
+.phlight-high-heel:before {
+  content: "\e8e8";
+}
+.phlight-highlighter:before {
+  content: "\ec76";
+}
+.phlight-highlighter-circle:before {
+  content: "\e632";
+}
+.phlight-hockey:before {
+  content: "\ec86";
+}
+.phlight-hoodie:before {
+  content: "\ecd0";
+}
+.phlight-horse:before {
+  content: "\e2b0";
+}
+.phlight-hospital:before {
+  content: "\e844";
+}
+.phlight-hourglass:before {
+  content: "\e2b2";
+}
+.phlight-hourglass-high:before {
+  content: "\e2b4";
+}
+.phlight-hourglass-low:before {
+  content: "\e2b6";
+}
+.phlight-hourglass-medium:before {
+  content: "\e2b8";
+}
+.phlight-hourglass-simple:before {
+  content: "\e2ba";
+}
+.phlight-hourglass-simple-high:before {
+  content: "\e2bc";
+}
+.phlight-hourglass-simple-low:before {
+  content: "\e2be";
+}
+.phlight-hourglass-simple-medium:before {
+  content: "\e2c0";
+}
+.phlight-house:before {
+  content: "\e2c2";
+}
+.phlight-house-line:before {
+  content: "\e2c4";
+}
+.phlight-house-simple:before {
+  content: "\e2c6";
+}
+.phlight-hurricane:before {
+  content: "\e88e";
+}
+.phlight-ice-cream:before {
+  content: "\e804";
+}
+.phlight-identification-badge:before {
+  content: "\e6f6";
+}
+.phlight-identification-card:before {
+  content: "\e2c8";
+}
+.phlight-image:before {
+  content: "\e2ca";
+}
+.phlight-image-broken:before {
+  content: "\e7a8";
+}
+.phlight-image-square:before {
+  content: "\e2cc";
+}
+.phlight-images:before {
+  content: "\e836";
+}
+.phlight-images-square:before {
+  content: "\e834";
+}
+.phlight-infinity:before {
+  content: "\e634";
+}
+.phlight-lemniscate:before {
+  content: "\e634";
+}
+.phlight-info:before {
+  content: "\e2ce";
+}
+.phlight-instagram-logo:before {
+  content: "\e2d0";
+}
+.phlight-intersect:before {
+  content: "\e2d2";
+}
+.phlight-intersect-square:before {
+  content: "\e87a";
+}
+.phlight-intersect-three:before {
+  content: "\ecc4";
+}
+.phlight-intersection:before {
+  content: "\edba";
+}
+.phlight-invoice:before {
+  content: "\ee42";
+}
+.phlight-island:before {
+  content: "\ee06";
+}
+.phlight-jar:before {
+  content: "\e7e0";
+}
+.phlight-jar-label:before {
+  content: "\e7e1";
+}
+.phlight-jeep:before {
+  content: "\e2d4";
+}
+.phlight-joystick:before {
+  content: "\ea5e";
+}
+.phlight-kanban:before {
+  content: "\eb54";
+}
+.phlight-key:before {
+  content: "\e2d6";
+}
+.phlight-key-return:before {
+  content: "\e782";
+}
+.phlight-keyboard:before {
+  content: "\e2d8";
+}
+.phlight-keyhole:before {
+  content: "\ea78";
+}
+.phlight-knife:before {
+  content: "\e636";
+}
+.phlight-ladder:before {
+  content: "\e9e4";
+}
+.phlight-ladder-simple:before {
+  content: "\ec26";
+}
+.phlight-lamp:before {
+  content: "\e638";
+}
+.phlight-lamp-pendant:before {
+  content: "\ee2e";
+}
+.phlight-laptop:before {
+  content: "\e586";
+}
+.phlight-lasso:before {
+  content: "\edc6";
+}
+.phlight-lastfm-logo:before {
+  content: "\e842";
+}
+.phlight-layout:before {
+  content: "\e6d6";
+}
+.phlight-leaf:before {
+  content: "\e2da";
+}
+.phlight-lectern:before {
+  content: "\e95a";
+}
+.phlight-lego:before {
+  content: "\e8c6";
+}
+.phlight-lego-smiley:before {
+  content: "\e8c7";
+}
+.phlight-less-than:before {
+  content: "\edac";
+}
+.phlight-less-than-or-equal:before {
+  content: "\eda4";
+}
+.phlight-letter-circle-h:before {
+  content: "\ebf8";
+}
+.phlight-letter-circle-p:before {
+  content: "\ec08";
+}
+.phlight-letter-circle-v:before {
+  content: "\ec14";
+}
+.phlight-lifebuoy:before {
+  content: "\e63a";
+}
+.phlight-lightbulb:before {
+  content: "\e2dc";
+}
+.phlight-lightbulb-filament:before {
+  content: "\e63c";
+}
+.phlight-lighthouse:before {
+  content: "\e9f6";
+}
+.phlight-lightning:before {
+  content: "\e2de";
+}
+.phlight-lightning-a:before {
+  content: "\ea84";
+}
+.phlight-lightning-slash:before {
+  content: "\e2e0";
+}
+.phlight-line-segment:before {
+  content: "\e6d2";
+}
+.phlight-line-segments:before {
+  content: "\e6d4";
+}
+.phlight-line-vertical:before {
+  content: "\ed70";
+}
+.phlight-link:before {
+  content: "\e2e2";
+}
+.phlight-link-break:before {
+  content: "\e2e4";
+}
+.phlight-link-simple:before {
+  content: "\e2e6";
+}
+.phlight-link-simple-break:before {
+  content: "\e2e8";
+}
+.phlight-link-simple-horizontal:before {
+  content: "\e2ea";
+}
+.phlight-link-simple-horizontal-break:before {
+  content: "\e2ec";
+}
+.phlight-linkedin-logo:before {
+  content: "\e2ee";
+}
+.phlight-linktree-logo:before {
+  content: "\edee";
+}
+.phlight-linux-logo:before {
+  content: "\eb02";
+}
+.phlight-list:before {
+  content: "\e2f0";
+}
+.phlight-list-bullets:before {
+  content: "\e2f2";
+}
+.phlight-list-checks:before {
+  content: "\eadc";
+}
+.phlight-list-dashes:before {
+  content: "\e2f4";
+}
+.phlight-list-heart:before {
+  content: "\ebde";
+}
+.phlight-list-magnifying-glass:before {
+  content: "\ebe0";
+}
+.phlight-list-numbers:before {
+  content: "\e2f6";
+}
+.phlight-list-plus:before {
+  content: "\e2f8";
+}
+.phlight-list-star:before {
+  content: "\ebdc";
+}
+.phlight-lock:before {
+  content: "\e2fa";
+}
+.phlight-lock-key:before {
+  content: "\e2fe";
+}
+.phlight-lock-key-open:before {
+  content: "\e300";
+}
+.phlight-lock-laminated:before {
+  content: "\e302";
+}
+.phlight-lock-laminated-open:before {
+  content: "\e304";
+}
+.phlight-lock-open:before {
+  content: "\e306";
+}
+.phlight-lock-simple:before {
+  content: "\e308";
+}
+.phlight-lock-simple-open:before {
+  content: "\e30a";
+}
+.phlight-lockers:before {
+  content: "\ecb8";
+}
+.phlight-log:before {
+  content: "\ed82";
+}
+.phlight-magic-wand:before {
+  content: "\e6b6";
+}
+.phlight-magnet:before {
+  content: "\e680";
+}
+.phlight-magnet-straight:before {
+  content: "\e682";
+}
+.phlight-magnifying-glass:before {
+  content: "\e30c";
+}
+.phlight-magnifying-glass-minus:before {
+  content: "\e30e";
+}
+.phlight-magnifying-glass-plus:before {
+  content: "\e310";
+}
+.phlight-mailbox:before {
+  content: "\ec1e";
+}
+.phlight-map-pin:before {
+  content: "\e316";
+}
+.phlight-map-pin-area:before {
+  content: "\ee3a";
+}
+.phlight-map-pin-line:before {
+  content: "\e318";
+}
+.phlight-map-pin-plus:before {
+  content: "\e314";
+}
+.phlight-map-pin-simple:before {
+  content: "\ee3e";
+}
+.phlight-map-pin-simple-area:before {
+  content: "\ee3c";
+}
+.phlight-map-pin-simple-line:before {
+  content: "\ee38";
+}
+.phlight-map-trifold:before {
+  content: "\e31a";
+}
+.phlight-markdown-logo:before {
+  content: "\e508";
+}
+.phlight-marker-circle:before {
+  content: "\e640";
+}
+.phlight-martini:before {
+  content: "\e31c";
+}
+.phlight-mask-happy:before {
+  content: "\e9f4";
+}
+.phlight-mask-sad:before {
+  content: "\eb9e";
+}
+.phlight-mastodon-logo:before {
+  content: "\ed68";
+}
+.phlight-math-operations:before {
+  content: "\e31e";
+}
+.phlight-matrix-logo:before {
+  content: "\ed64";
+}
+.phlight-medal:before {
+  content: "\e320";
+}
+.phlight-medal-military:before {
+  content: "\ecfc";
+}
+.phlight-medium-logo:before {
+  content: "\e322";
+}
+.phlight-megaphone:before {
+  content: "\e324";
+}
+.phlight-megaphone-simple:before {
+  content: "\e642";
+}
+.phlight-member-of:before {
+  content: "\edc2";
+}
+.phlight-memory:before {
+  content: "\e9c4";
+}
+.phlight-messenger-logo:before {
+  content: "\e6d8";
+}
+.phlight-meta-logo:before {
+  content: "\ed02";
+}
+.phlight-meteor:before {
+  content: "\e9ba";
+}
+.phlight-metronome:before {
+  content: "\ec8e";
+}
+.phlight-microphone:before {
+  content: "\e326";
+}
+.phlight-microphone-slash:before {
+  content: "\e328";
+}
+.phlight-microphone-stage:before {
+  content: "\e75c";
+}
+.phlight-microscope:before {
+  content: "\ec7a";
+}
+.phlight-microsoft-excel-logo:before {
+  content: "\eb6c";
+}
+.phlight-microsoft-outlook-logo:before {
+  content: "\eb70";
+}
+.phlight-microsoft-powerpoint-logo:before {
+  content: "\eace";
+}
+.phlight-microsoft-teams-logo:before {
+  content: "\eb66";
+}
+.phlight-microsoft-word-logo:before {
+  content: "\eb6a";
+}
+.phlight-minus:before {
+  content: "\e32a";
+}
+.phlight-minus-circle:before {
+  content: "\e32c";
+}
+.phlight-minus-square:before {
+  content: "\ed4c";
+}
+.phlight-money:before {
+  content: "\e588";
+}
+.phlight-money-wavy:before {
+  content: "\ee68";
+}
+.phlight-monitor:before {
+  content: "\e32e";
+}
+.phlight-monitor-arrow-up:before {
+  content: "\e58a";
+}
+.phlight-monitor-play:before {
+  content: "\e58c";
+}
+.phlight-moon:before {
+  content: "\e330";
+}
+.phlight-moon-stars:before {
+  content: "\e58e";
+}
+.phlight-moped:before {
+  content: "\e824";
+}
+.phlight-moped-front:before {
+  content: "\e822";
+}
+.phlight-mosque:before {
+  content: "\ecee";
+}
+.phlight-motorcycle:before {
+  content: "\e80a";
+}
+.phlight-mountains:before {
+  content: "\e7ae";
+}
+.phlight-mouse:before {
+  content: "\e33a";
+}
+.phlight-mouse-left-click:before {
+  content: "\e334";
+}
+.phlight-mouse-middle-click:before {
+  content: "\e338";
+}
+.phlight-mouse-right-click:before {
+  content: "\e336";
+}
+.phlight-mouse-scroll:before {
+  content: "\e332";
+}
+.phlight-mouse-simple:before {
+  content: "\e644";
+}
+.phlight-music-note:before {
+  content: "\e33c";
+}
+.phlight-music-note-simple:before {
+  content: "\e33e";
+}
+.phlight-music-notes:before {
+  content: "\e340";
+}
+.phlight-music-notes-minus:before {
+  content: "\ee0c";
+}
+.phlight-music-notes-plus:before {
+  content: "\eb7c";
+}
+.phlight-music-notes-simple:before {
+  content: "\e342";
+}
+.phlight-navigation-arrow:before {
+  content: "\eade";
+}
+.phlight-needle:before {
+  content: "\e82e";
+}
+.phlight-network:before {
+  content: "\edde";
+}
+.phlight-network-slash:before {
+  content: "\eddc";
+}
+.phlight-network-x:before {
+  content: "\edda";
+}
+.phlight-newspaper:before {
+  content: "\e344";
+}
+.phlight-newspaper-clipping:before {
+  content: "\e346";
+}
+.phlight-not-equals:before {
+  content: "\eda6";
+}
+.phlight-not-member-of:before {
+  content: "\edae";
+}
+.phlight-not-subset-of:before {
+  content: "\edb0";
+}
+.phlight-not-superset-of:before {
+  content: "\edb2";
+}
+.phlight-notches:before {
+  content: "\ed3a";
+}
+.phlight-note:before {
+  content: "\e348";
+}
+.phlight-note-blank:before {
+  content: "\e34a";
+}
+.phlight-note-pencil:before {
+  content: "\e34c";
+}
+.phlight-notebook:before {
+  content: "\e34e";
+}
+.phlight-notepad:before {
+  content: "\e63e";
+}
+.phlight-notification:before {
+  content: "\e6fa";
+}
+.phlight-notion-logo:before {
+  content: "\e9a0";
+}
+.phlight-nuclear-plant:before {
+  content: "\ed7c";
+}
+.phlight-number-circle-eight:before {
+  content: "\e352";
+}
+.phlight-number-circle-five:before {
+  content: "\e358";
+}
+.phlight-number-circle-four:before {
+  content: "\e35e";
+}
+.phlight-number-circle-nine:before {
+  content: "\e364";
+}
+.phlight-number-circle-one:before {
+  content: "\e36a";
+}
+.phlight-number-circle-seven:before {
+  content: "\e370";
+}
+.phlight-number-circle-six:before {
+  content: "\e376";
+}
+.phlight-number-circle-three:before {
+  content: "\e37c";
+}
+.phlight-number-circle-two:before {
+  content: "\e382";
+}
+.phlight-number-circle-zero:before {
+  content: "\e388";
+}
+.phlight-number-eight:before {
+  content: "\e350";
+}
+.phlight-number-five:before {
+  content: "\e356";
+}
+.phlight-number-four:before {
+  content: "\e35c";
+}
+.phlight-number-nine:before {
+  content: "\e362";
+}
+.phlight-number-one:before {
+  content: "\e368";
+}
+.phlight-number-seven:before {
+  content: "\e36e";
+}
+.phlight-number-six:before {
+  content: "\e374";
+}
+.phlight-number-square-eight:before {
+  content: "\e354";
+}
+.phlight-number-square-five:before {
+  content: "\e35a";
+}
+.phlight-number-square-four:before {
+  content: "\e360";
+}
+.phlight-number-square-nine:before {
+  content: "\e366";
+}
+.phlight-number-square-one:before {
+  content: "\e36c";
+}
+.phlight-number-square-seven:before {
+  content: "\e372";
+}
+.phlight-number-square-six:before {
+  content: "\e378";
+}
+.phlight-number-square-three:before {
+  content: "\e37e";
+}
+.phlight-number-square-two:before {
+  content: "\e384";
+}
+.phlight-number-square-zero:before {
+  content: "\e38a";
+}
+.phlight-number-three:before {
+  content: "\e37a";
+}
+.phlight-number-two:before {
+  content: "\e380";
+}
+.phlight-number-zero:before {
+  content: "\e386";
+}
+.phlight-numpad:before {
+  content: "\e3c8";
+}
+.phlight-nut:before {
+  content: "\e38c";
+}
+.phlight-ny-times-logo:before {
+  content: "\e646";
+}
+.phlight-octagon:before {
+  content: "\e38e";
+}
+.phlight-office-chair:before {
+  content: "\ea46";
+}
+.phlight-onigiri:before {
+  content: "\ee2c";
+}
+.phlight-open-ai-logo:before {
+  content: "\e7d2";
+}
+.phlight-option:before {
+  content: "\e8a8";
+}
+.phlight-orange:before {
+  content: "\ee40";
+}
+.phlight-orange-slice:before {
+  content: "\ed36";
+}
+.phlight-oven:before {
+  content: "\ed8c";
+}
+.phlight-package:before {
+  content: "\e390";
+}
+.phlight-paint-brush:before {
+  content: "\e6f0";
+}
+.phlight-paint-brush-broad:before {
+  content: "\e590";
+}
+.phlight-paint-brush-household:before {
+  content: "\e6f2";
+}
+.phlight-paint-bucket:before {
+  content: "\e392";
+}
+.phlight-paint-roller:before {
+  content: "\e6f4";
+}
+.phlight-palette:before {
+  content: "\e6c8";
+}
+.phlight-panorama:before {
+  content: "\eaa2";
+}
+.phlight-pants:before {
+  content: "\ec88";
+}
+.phlight-paper-plane:before {
+  content: "\e394";
+}
+.phlight-paper-plane-right:before {
+  content: "\e396";
+}
+.phlight-paper-plane-tilt:before {
+  content: "\e398";
+}
+.phlight-paperclip:before {
+  content: "\e39a";
+}
+.phlight-paperclip-horizontal:before {
+  content: "\e592";
+}
+.phlight-parachute:before {
+  content: "\ea7c";
+}
+.phlight-paragraph:before {
+  content: "\e960";
+}
+.phlight-parallelogram:before {
+  content: "\ecc6";
+}
+.phlight-park:before {
+  content: "\ecb2";
+}
+.phlight-password:before {
+  content: "\e752";
+}
+.phlight-path:before {
+  content: "\e39c";
+}
+.phlight-patreon-logo:before {
+  content: "\e98a";
+}
+.phlight-pause:before {
+  content: "\e39e";
+}
+.phlight-pause-circle:before {
+  content: "\e3a0";
+}
+.phlight-paw-print:before {
+  content: "\e648";
+}
+.phlight-paypal-logo:before {
+  content: "\e98c";
+}
+.phlight-peace:before {
+  content: "\e3a2";
+}
+.phlight-pen:before {
+  content: "\e3aa";
+}
+.phlight-pen-nib:before {
+  content: "\e3ac";
+}
+.phlight-pen-nib-straight:before {
+  content: "\e64a";
+}
+.phlight-pencil:before {
+  content: "\e3ae";
+}
+.phlight-pencil-circle:before {
+  content: "\e3b0";
+}
+.phlight-pencil-line:before {
+  content: "\e3b2";
+}
+.phlight-pencil-ruler:before {
+  content: "\e906";
+}
+.phlight-pencil-simple:before {
+  content: "\e3b4";
+}
+.phlight-pencil-simple-line:before {
+  content: "\ebc6";
+}
+.phlight-pencil-simple-slash:before {
+  content: "\ecf6";
+}
+.phlight-pencil-slash:before {
+  content: "\ecf8";
+}
+.phlight-pentagon:before {
+  content: "\ec7e";
+}
+.phlight-pentagram:before {
+  content: "\ec5c";
+}
+.phlight-pepper:before {
+  content: "\e94a";
+}
+.phlight-percent:before {
+  content: "\e3b6";
+}
+.phlight-person:before {
+  content: "\e3a8";
+}
+.phlight-person-arms-spread:before {
+  content: "\ecfe";
+}
+.phlight-person-simple:before {
+  content: "\e72e";
+}
+.phlight-person-simple-bike:before {
+  content: "\e734";
+}
+.phlight-person-simple-circle:before {
+  content: "\ee58";
+}
+.phlight-person-simple-hike:before {
+  content: "\ed54";
+}
+.phlight-person-simple-run:before {
+  content: "\e730";
+}
+.phlight-person-simple-ski:before {
+  content: "\e71c";
+}
+.phlight-person-simple-snowboard:before {
+  content: "\e71e";
+}
+.phlight-person-simple-swim:before {
+  content: "\e736";
+}
+.phlight-person-simple-tai-chi:before {
+  content: "\ed5c";
+}
+.phlight-person-simple-throw:before {
+  content: "\e732";
+}
+.phlight-person-simple-walk:before {
+  content: "\e73a";
+}
+.phlight-perspective:before {
+  content: "\ebe6";
+}
+.phlight-phone:before {
+  content: "\e3b8";
+}
+.phlight-phone-call:before {
+  content: "\e3ba";
+}
+.phlight-phone-disconnect:before {
+  content: "\e3bc";
+}
+.phlight-phone-incoming:before {
+  content: "\e3be";
+}
+.phlight-phone-list:before {
+  content: "\e3cc";
+}
+.phlight-phone-outgoing:before {
+  content: "\e3c0";
+}
+.phlight-phone-pause:before {
+  content: "\e3ca";
+}
+.phlight-phone-plus:before {
+  content: "\ec56";
+}
+.phlight-phone-slash:before {
+  content: "\e3c2";
+}
+.phlight-phone-transfer:before {
+  content: "\e3c6";
+}
+.phlight-phone-x:before {
+  content: "\e3c4";
+}
+.phlight-phosphor-logo:before {
+  content: "\e3ce";
+}
+.phlight-pi:before {
+  content: "\ec80";
+}
+.phlight-piano-keys:before {
+  content: "\e9c8";
+}
+.phlight-picnic-table:before {
+  content: "\ee26";
+}
+.phlight-picture-in-picture:before {
+  content: "\e64c";
+}
+.phlight-piggy-bank:before {
+  content: "\ea04";
+}
+.phlight-pill:before {
+  content: "\e700";
+}
+.phlight-ping-pong:before {
+  content: "\ea42";
+}
+.phlight-pint-glass:before {
+  content: "\edd0";
+}
+.phlight-pinterest-logo:before {
+  content: "\e64e";
+}
+.phlight-pinwheel:before {
+  content: "\eb9c";
+}
+.phlight-pipe:before {
+  content: "\ed86";
+}
+.phlight-pipe-wrench:before {
+  content: "\ed88";
+}
+.phlight-pix-logo:before {
+  content: "\ecc2";
+}
+.phlight-pizza:before {
+  content: "\e796";
+}
+.phlight-placeholder:before {
+  content: "\e650";
+}
+.phlight-planet:before {
+  content: "\e652";
+}
+.phlight-plant:before {
+  content: "\ebae";
+}
+.phlight-play:before {
+  content: "\e3d0";
+}
+.phlight-play-circle:before {
+  content: "\e3d2";
+}
+.phlight-play-pause:before {
+  content: "\e8be";
+}
+.phlight-playlist:before {
+  content: "\e6aa";
+}
+.phlight-plug:before {
+  content: "\e946";
+}
+.phlight-plug-charging:before {
+  content: "\eb5c";
+}
+.phlight-plugs:before {
+  content: "\eb56";
+}
+.phlight-plugs-connected:before {
+  content: "\eb5a";
+}
+.phlight-plus:before {
+  content: "\e3d4";
+}
+.phlight-plus-circle:before {
+  content: "\e3d6";
+}
+.phlight-plus-minus:before {
+  content: "\e3d8";
+}
+.phlight-plus-square:before {
+  content: "\ed4a";
+}
+.phlight-poker-chip:before {
+  content: "\e594";
+}
+.phlight-police-car:before {
+  content: "\ec4a";
+}
+.phlight-polygon:before {
+  content: "\e6d0";
+}
+.phlight-popcorn:before {
+  content: "\eb4e";
+}
+.phlight-popsicle:before {
+  content: "\ebbe";
+}
+.phlight-potted-plant:before {
+  content: "\ec22";
+}
+.phlight-power:before {
+  content: "\e3da";
+}
+.phlight-prescription:before {
+  content: "\e7a2";
+}
+.phlight-presentation:before {
+  content: "\e654";
+}
+.phlight-presentation-chart:before {
+  content: "\e656";
+}
+.phlight-printer:before {
+  content: "\e3dc";
+}
+.phlight-prohibit:before {
+  content: "\e3de";
+}
+.phlight-prohibit-inset:before {
+  content: "\e3e0";
+}
+.phlight-projector-screen:before {
+  content: "\e658";
+}
+.phlight-projector-screen-chart:before {
+  content: "\e65a";
+}
+.phlight-pulse:before {
+  content: "\e000";
+}
+.phlight-activity:before {
+  content: "\e000";
+}
+.phlight-push-pin:before {
+  content: "\e3e2";
+}
+.phlight-push-pin-simple:before {
+  content: "\e65c";
+}
+.phlight-push-pin-simple-slash:before {
+  content: "\e65e";
+}
+.phlight-push-pin-slash:before {
+  content: "\e3e4";
+}
+.phlight-puzzle-piece:before {
+  content: "\e596";
+}
+.phlight-qr-code:before {
+  content: "\e3e6";
+}
+.phlight-question:before {
+  content: "\e3e8";
+}
+.phlight-question-mark:before {
+  content: "\e3e9";
+}
+.phlight-queue:before {
+  content: "\e6ac";
+}
+.phlight-quotes:before {
+  content: "\e660";
+}
+.phlight-rabbit:before {
+  content: "\eac2";
+}
+.phlight-racquet:before {
+  content: "\ee02";
+}
+.phlight-radical:before {
+  content: "\e3ea";
+}
+.phlight-radio:before {
+  content: "\e77e";
+}
+.phlight-radio-button:before {
+  content: "\eb08";
+}
+.phlight-radioactive:before {
+  content: "\e9dc";
+}
+.phlight-rainbow:before {
+  content: "\e598";
+}
+.phlight-rainbow-cloud:before {
+  content: "\e59a";
+}
+.phlight-ranking:before {
+  content: "\ed62";
+}
+.phlight-read-cv-logo:before {
+  content: "\ed0c";
+}
+.phlight-receipt:before {
+  content: "\e3ec";
+}
+.phlight-receipt-x:before {
+  content: "\ed40";
+}
+.phlight-record:before {
+  content: "\e3ee";
+}
+.phlight-rectangle:before {
+  content: "\e3f0";
+}
+.phlight-rectangle-dashed:before {
+  content: "\e3f2";
+}
+.phlight-recycle:before {
+  content: "\e75a";
+}
+.phlight-reddit-logo:before {
+  content: "\e59c";
+}
+.phlight-repeat:before {
+  content: "\e3f6";
+}
+.phlight-repeat-once:before {
+  content: "\e3f8";
+}
+.phlight-replit-logo:before {
+  content: "\eb8a";
+}
+.phlight-resize:before {
+  content: "\ed6e";
+}
+.phlight-rewind:before {
+  content: "\e6a8";
+}
+.phlight-rewind-circle:before {
+  content: "\e3fa";
+}
+.phlight-road-horizon:before {
+  content: "\e838";
+}
+.phlight-robot:before {
+  content: "\e762";
+}
+.phlight-rocket:before {
+  content: "\e3fc";
+}
+.phlight-rocket-launch:before {
+  content: "\e3fe";
+}
+.phlight-rows:before {
+  content: "\e5a2";
+}
+.phlight-rows-plus-bottom:before {
+  content: "\e59e";
+}
+.phlight-rows-plus-top:before {
+  content: "\e5a0";
+}
+.phlight-rss:before {
+  content: "\e400";
+}
+.phlight-rss-simple:before {
+  content: "\e402";
+}
+.phlight-rug:before {
+  content: "\ea1a";
+}
+.phlight-ruler:before {
+  content: "\e6b8";
+}
+.phlight-sailboat:before {
+  content: "\e78a";
+}
+.phlight-scales:before {
+  content: "\e750";
+}
+.phlight-scan:before {
+  content: "\ebb6";
+}
+.phlight-scan-smiley:before {
+  content: "\ebb4";
+}
+.phlight-scissors:before {
+  content: "\eae0";
+}
+.phlight-scooter:before {
+  content: "\e820";
+}
+.phlight-screencast:before {
+  content: "\e404";
+}
+.phlight-screwdriver:before {
+  content: "\e86e";
+}
+.phlight-scribble:before {
+  content: "\e806";
+}
+.phlight-scribble-loop:before {
+  content: "\e662";
+}
+.phlight-scroll:before {
+  content: "\eb7a";
+}
+.phlight-seal:before {
+  content: "\e604";
+}
+.phlight-circle-wavy:before {
+  content: "\e604";
+}
+.phlight-seal-check:before {
+  content: "\e606";
+}
+.phlight-circle-wavy-check:before {
+  content: "\e606";
+}
+.phlight-seal-percent:before {
+  content: "\e60a";
+}
+.phlight-seal-question:before {
+  content: "\e608";
+}
+.phlight-circle-wavy-question:before {
+  content: "\e608";
+}
+.phlight-seal-warning:before {
+  content: "\e60c";
+}
+.phlight-circle-wavy-warning:before {
+  content: "\e60c";
+}
+.phlight-seat:before {
+  content: "\eb8e";
+}
+.phlight-seatbelt:before {
+  content: "\edfe";
+}
+.phlight-security-camera:before {
+  content: "\eca4";
+}
+.phlight-selection:before {
+  content: "\e69a";
+}
+.phlight-selection-all:before {
+  content: "\e746";
+}
+.phlight-selection-background:before {
+  content: "\eaf8";
+}
+.phlight-selection-foreground:before {
+  content: "\eaf6";
+}
+.phlight-selection-inverse:before {
+  content: "\e744";
+}
+.phlight-selection-plus:before {
+  content: "\e69c";
+}
+.phlight-selection-slash:before {
+  content: "\e69e";
+}
+.phlight-shapes:before {
+  content: "\ec5e";
+}
+.phlight-share:before {
+  content: "\e406";
+}
+.phlight-share-fat:before {
+  content: "\ed52";
+}
+.phlight-share-network:before {
+  content: "\e408";
+}
+.phlight-shield:before {
+  content: "\e40a";
+}
+.phlight-shield-check:before {
+  content: "\e40c";
+}
+.phlight-shield-checkered:before {
+  content: "\e708";
+}
+.phlight-shield-chevron:before {
+  content: "\e40e";
+}
+.phlight-shield-plus:before {
+  content: "\e706";
+}
+.phlight-shield-slash:before {
+  content: "\e410";
+}
+.phlight-shield-star:before {
+  content: "\ec34";
+}
+.phlight-shield-warning:before {
+  content: "\e412";
+}
+.phlight-shipping-container:before {
+  content: "\e78c";
+}
+.phlight-shirt-folded:before {
+  content: "\ea92";
+}
+.phlight-shooting-star:before {
+  content: "\ecfa";
+}
+.phlight-shopping-bag:before {
+  content: "\e416";
+}
+.phlight-shopping-bag-open:before {
+  content: "\e418";
+}
+.phlight-shopping-cart:before {
+  content: "\e41e";
+}
+.phlight-shopping-cart-simple:before {
+  content: "\e420";
+}
+.phlight-shovel:before {
+  content: "\e9e6";
+}
+.phlight-shower:before {
+  content: "\e776";
+}
+.phlight-shrimp:before {
+  content: "\eab4";
+}
+.phlight-shuffle:before {
+  content: "\e422";
+}
+.phlight-shuffle-angular:before {
+  content: "\e424";
+}
+.phlight-shuffle-simple:before {
+  content: "\e426";
+}
+.phlight-sidebar:before {
+  content: "\eab6";
+}
+.phlight-sidebar-simple:before {
+  content: "\ec24";
+}
+.phlight-sigma:before {
+  content: "\eab8";
+}
+.phlight-sign-in:before {
+  content: "\e428";
+}
+.phlight-sign-out:before {
+  content: "\e42a";
+}
+.phlight-signature:before {
+  content: "\ebac";
+}
+.phlight-signpost:before {
+  content: "\e89c";
+}
+.phlight-sim-card:before {
+  content: "\e664";
+}
+.phlight-siren:before {
+  content: "\e9b8";
+}
+.phlight-sketch-logo:before {
+  content: "\e42c";
+}
+.phlight-skip-back:before {
+  content: "\e5a4";
+}
+.phlight-skip-back-circle:before {
+  content: "\e42e";
+}
+.phlight-skip-forward:before {
+  content: "\e5a6";
+}
+.phlight-skip-forward-circle:before {
+  content: "\e430";
+}
+.phlight-skull:before {
+  content: "\e916";
+}
+.phlight-skype-logo:before {
+  content: "\e8dc";
+}
+.phlight-slack-logo:before {
+  content: "\e5a8";
+}
+.phlight-sliders:before {
+  content: "\e432";
+}
+.phlight-sliders-horizontal:before {
+  content: "\e434";
+}
+.phlight-slideshow:before {
+  content: "\ed32";
+}
+.phlight-smiley:before {
+  content: "\e436";
+}
+.phlight-smiley-angry:before {
+  content: "\ec62";
+}
+.phlight-smiley-blank:before {
+  content: "\e438";
+}
+.phlight-smiley-meh:before {
+  content: "\e43a";
+}
+.phlight-smiley-melting:before {
+  content: "\ee56";
+}
+.phlight-smiley-nervous:before {
+  content: "\e43c";
+}
+.phlight-smiley-sad:before {
+  content: "\e43e";
+}
+.phlight-smiley-sticker:before {
+  content: "\e440";
+}
+.phlight-smiley-wink:before {
+  content: "\e666";
+}
+.phlight-smiley-x-eyes:before {
+  content: "\e442";
+}
+.phlight-snapchat-logo:before {
+  content: "\e668";
+}
+.phlight-sneaker:before {
+  content: "\e80c";
+}
+.phlight-sneaker-move:before {
+  content: "\ed60";
+}
+.phlight-snowflake:before {
+  content: "\e5aa";
+}
+.phlight-soccer-ball:before {
+  content: "\e716";
+}
+.phlight-sock:before {
+  content: "\ecce";
+}
+.phlight-solar-panel:before {
+  content: "\ed7a";
+}
+.phlight-solar-roof:before {
+  content: "\ed7b";
+}
+.phlight-sort-ascending:before {
+  content: "\e444";
+}
+.phlight-sort-descending:before {
+  content: "\e446";
+}
+.phlight-soundcloud-logo:before {
+  content: "\e8de";
+}
+.phlight-spade:before {
+  content: "\e448";
+}
+.phlight-sparkle:before {
+  content: "\e6a2";
+}
+.phlight-speaker-hifi:before {
+  content: "\ea08";
+}
+.phlight-speaker-high:before {
+  content: "\e44a";
+}
+.phlight-speaker-low:before {
+  content: "\e44c";
+}
+.phlight-speaker-none:before {
+  content: "\e44e";
+}
+.phlight-speaker-simple-high:before {
+  content: "\e450";
+}
+.phlight-speaker-simple-low:before {
+  content: "\e452";
+}
+.phlight-speaker-simple-none:before {
+  content: "\e454";
+}
+.phlight-speaker-simple-slash:before {
+  content: "\e456";
+}
+.phlight-speaker-simple-x:before {
+  content: "\e458";
+}
+.phlight-speaker-slash:before {
+  content: "\e45a";
+}
+.phlight-speaker-x:before {
+  content: "\e45c";
+}
+.phlight-speedometer:before {
+  content: "\ee74";
+}
+.phlight-sphere:before {
+  content: "\ee66";
+}
+.phlight-spinner:before {
+  content: "\e66a";
+}
+.phlight-spinner-ball:before {
+  content: "\ee28";
+}
+.phlight-spinner-gap:before {
+  content: "\e66c";
+}
+.phlight-spiral:before {
+  content: "\e9fa";
+}
+.phlight-split-horizontal:before {
+  content: "\e872";
+}
+.phlight-split-vertical:before {
+  content: "\e876";
+}
+.phlight-spotify-logo:before {
+  content: "\e66e";
+}
+.phlight-spray-bottle:before {
+  content: "\e7e4";
+}
+.phlight-square:before {
+  content: "\e45e";
+}
+.phlight-square-half:before {
+  content: "\e462";
+}
+.phlight-square-half-bottom:before {
+  content: "\eb16";
+}
+.phlight-square-logo:before {
+  content: "\e690";
+}
+.phlight-square-split-horizontal:before {
+  content: "\e870";
+}
+.phlight-square-split-vertical:before {
+  content: "\e874";
+}
+.phlight-squares-four:before {
+  content: "\e464";
+}
+.phlight-stack:before {
+  content: "\e466";
+}
+.phlight-stack-minus:before {
+  content: "\edf4";
+}
+.phlight-stack-overflow-logo:before {
+  content: "\eb78";
+}
+.phlight-stack-plus:before {
+  content: "\edf6";
+}
+.phlight-stack-simple:before {
+  content: "\e468";
+}
+.phlight-stairs:before {
+  content: "\e8ec";
+}
+.phlight-stamp:before {
+  content: "\ea48";
+}
+.phlight-standard-definition:before {
+  content: "\ea90";
+}
+.phlight-star:before {
+  content: "\e46a";
+}
+.phlight-star-and-crescent:before {
+  content: "\ecf4";
+}
+.phlight-star-four:before {
+  content: "\e6a4";
+}
+.phlight-star-half:before {
+  content: "\e70a";
+}
+.phlight-star-of-david:before {
+  content: "\e89e";
+}
+.phlight-steam-logo:before {
+  content: "\ead4";
+}
+.phlight-steering-wheel:before {
+  content: "\e9ac";
+}
+.phlight-steps:before {
+  content: "\ecbe";
+}
+.phlight-stethoscope:before {
+  content: "\e7ea";
+}
+.phlight-sticker:before {
+  content: "\e5ac";
+}
+.phlight-stool:before {
+  content: "\ea44";
+}
+.phlight-stop:before {
+  content: "\e46c";
+}
+.phlight-stop-circle:before {
+  content: "\e46e";
+}
+.phlight-storefront:before {
+  content: "\e470";
+}
+.phlight-strategy:before {
+  content: "\ea3a";
+}
+.phlight-stripe-logo:before {
+  content: "\e698";
+}
+.phlight-student:before {
+  content: "\e73e";
+}
+.phlight-subset-of:before {
+  content: "\edc0";
+}
+.phlight-subset-proper-of:before {
+  content: "\edb6";
+}
+.phlight-subtitles:before {
+  content: "\e1a8";
+}
+.phlight-subtitles-slash:before {
+  content: "\e1a6";
+}
+.phlight-subtract:before {
+  content: "\ebd6";
+}
+.phlight-subtract-square:before {
+  content: "\ebd4";
+}
+.phlight-subway:before {
+  content: "\e498";
+}
+.phlight-suitcase:before {
+  content: "\e5ae";
+}
+.phlight-suitcase-rolling:before {
+  content: "\e9b0";
+}
+.phlight-suitcase-simple:before {
+  content: "\e5b0";
+}
+.phlight-sun:before {
+  content: "\e472";
+}
+.phlight-sun-dim:before {
+  content: "\e474";
+}
+.phlight-sun-horizon:before {
+  content: "\e5b6";
+}
+.phlight-sunglasses:before {
+  content: "\e816";
+}
+.phlight-superset-of:before {
+  content: "\edb8";
+}
+.phlight-superset-proper-of:before {
+  content: "\edb4";
+}
+.phlight-swap:before {
+  content: "\e83c";
+}
+.phlight-swatches:before {
+  content: "\e5b8";
+}
+.phlight-swimming-pool:before {
+  content: "\ecb6";
+}
+.phlight-sword:before {
+  content: "\e5ba";
+}
+.phlight-synagogue:before {
+  content: "\ecec";
+}
+.phlight-syringe:before {
+  content: "\e968";
+}
+.phlight-t-shirt:before {
+  content: "\e670";
+}
+.phlight-table:before {
+  content: "\e476";
+}
+.phlight-tabs:before {
+  content: "\e778";
+}
+.phlight-tag:before {
+  content: "\e478";
+}
+.phlight-tag-chevron:before {
+  content: "\e672";
+}
+.phlight-tag-simple:before {
+  content: "\e47a";
+}
+.phlight-target:before {
+  content: "\e47c";
+}
+.phlight-taxi:before {
+  content: "\e902";
+}
+.phlight-tea-bag:before {
+  content: "\e8e6";
+}
+.phlight-telegram-logo:before {
+  content: "\e5bc";
+}
+.phlight-television:before {
+  content: "\e754";
+}
+.phlight-television-simple:before {
+  content: "\eae6";
+}
+.phlight-tennis-ball:before {
+  content: "\e720";
+}
+.phlight-tent:before {
+  content: "\e8ba";
+}
+.phlight-terminal:before {
+  content: "\e47e";
+}
+.phlight-terminal-window:before {
+  content: "\eae8";
+}
+.phlight-test-tube:before {
+  content: "\e7a0";
+}
+.phlight-text-a-underline:before {
+  content: "\ed34";
+}
+.phlight-text-aa:before {
+  content: "\e6ee";
+}
+.phlight-text-align-center:before {
+  content: "\e480";
+}
+.phlight-text-align-justify:before {
+  content: "\e482";
+}
+.phlight-text-align-left:before {
+  content: "\e484";
+}
+.phlight-text-align-right:before {
+  content: "\e486";
+}
+.phlight-text-b:before {
+  content: "\e5be";
+}
+.phlight-text-bolder:before {
+  content: "\e5be";
+}
+.phlight-text-columns:before {
+  content: "\ec96";
+}
+.phlight-text-h:before {
+  content: "\e6ba";
+}
+.phlight-text-h-five:before {
+  content: "\e6c4";
+}
+.phlight-text-h-four:before {
+  content: "\e6c2";
+}
+.phlight-text-h-one:before {
+  content: "\e6bc";
+}
+.phlight-text-h-six:before {
+  content: "\e6c6";
+}
+.phlight-text-h-three:before {
+  content: "\e6c0";
+}
+.phlight-text-h-two:before {
+  content: "\e6be";
+}
+.phlight-text-indent:before {
+  content: "\ea1e";
+}
+.phlight-text-italic:before {
+  content: "\e5c0";
+}
+.phlight-text-outdent:before {
+  content: "\ea1c";
+}
+.phlight-text-strikethrough:before {
+  content: "\e5c2";
+}
+.phlight-text-subscript:before {
+  content: "\ec98";
+}
+.phlight-text-superscript:before {
+  content: "\ec9a";
+}
+.phlight-text-t:before {
+  content: "\e48a";
+}
+.phlight-text-t-slash:before {
+  content: "\e488";
+}
+.phlight-text-underline:before {
+  content: "\e5c4";
+}
+.phlight-textbox:before {
+  content: "\eb0a";
+}
+.phlight-thermometer:before {
+  content: "\e5c6";
+}
+.phlight-thermometer-cold:before {
+  content: "\e5c8";
+}
+.phlight-thermometer-hot:before {
+  content: "\e5ca";
+}
+.phlight-thermometer-simple:before {
+  content: "\e5cc";
+}
+.phlight-threads-logo:before {
+  content: "\ed9e";
+}
+.phlight-three-d:before {
+  content: "\ea5a";
+}
+.phlight-thumbs-down:before {
+  content: "\e48c";
+}
+.phlight-thumbs-up:before {
+  content: "\e48e";
+}
+.phlight-ticket:before {
+  content: "\e490";
+}
+.phlight-tidal-logo:before {
+  content: "\ed1c";
+}
+.phlight-tiktok-logo:before {
+  content: "\eaf2";
+}
+.phlight-tilde:before {
+  content: "\eda8";
+}
+.phlight-timer:before {
+  content: "\e492";
+}
+.phlight-tip-jar:before {
+  content: "\e7e2";
+}
+.phlight-tipi:before {
+  content: "\ed30";
+}
+.phlight-tire:before {
+  content: "\edd2";
+}
+.phlight-toggle-left:before {
+  content: "\e674";
+}
+.phlight-toggle-right:before {
+  content: "\e676";
+}
+.phlight-toilet:before {
+  content: "\e79a";
+}
+.phlight-toilet-paper:before {
+  content: "\e79c";
+}
+.phlight-toolbox:before {
+  content: "\eca0";
+}
+.phlight-tooth:before {
+  content: "\e9cc";
+}
+.phlight-tornado:before {
+  content: "\e88c";
+}
+.phlight-tote:before {
+  content: "\e494";
+}
+.phlight-tote-simple:before {
+  content: "\e678";
+}
+.phlight-towel:before {
+  content: "\ede6";
+}
+.phlight-tractor:before {
+  content: "\ec6e";
+}
+.phlight-trademark:before {
+  content: "\e9f0";
+}
+.phlight-trademark-registered:before {
+  content: "\e3f4";
+}
+.phlight-traffic-cone:before {
+  content: "\e9a8";
+}
+.phlight-traffic-sign:before {
+  content: "\e67a";
+}
+.phlight-traffic-signal:before {
+  content: "\e9aa";
+}
+.phlight-train:before {
+  content: "\e496";
+}
+.phlight-train-regional:before {
+  content: "\e49e";
+}
+.phlight-train-simple:before {
+  content: "\e4a0";
+}
+.phlight-tram:before {
+  content: "\e9ec";
+}
+.phlight-translate:before {
+  content: "\e4a2";
+}
+.phlight-trash:before {
+  content: "\e4a6";
+}
+.phlight-trash-simple:before {
+  content: "\e4a8";
+}
+.phlight-tray:before {
+  content: "\e4aa";
+}
+.phlight-tray-arrow-down:before {
+  content: "\e010";
+}
+.phlight-archive-tray:before {
+  content: "\e010";
+}
+.phlight-tray-arrow-up:before {
+  content: "\ee52";
+}
+.phlight-treasure-chest:before {
+  content: "\ede2";
+}
+.phlight-tree:before {
+  content: "\e6da";
+}
+.phlight-tree-evergreen:before {
+  content: "\e6dc";
+}
+.phlight-tree-palm:before {
+  content: "\e91a";
+}
+.phlight-tree-structure:before {
+  content: "\e67c";
+}
+.phlight-tree-view:before {
+  content: "\ee48";
+}
+.phlight-trend-down:before {
+  content: "\e4ac";
+}
+.phlight-trend-up:before {
+  content: "\e4ae";
+}
+.phlight-triangle:before {
+  content: "\e4b0";
+}
+.phlight-triangle-dashed:before {
+  content: "\e4b2";
+}
+.phlight-trolley:before {
+  content: "\e5b2";
+}
+.phlight-trolley-suitcase:before {
+  content: "\e5b4";
+}
+.phlight-trophy:before {
+  content: "\e67e";
+}
+.phlight-truck:before {
+  content: "\e4b4";
+}
+.phlight-truck-trailer:before {
+  content: "\e4b6";
+}
+.phlight-tumblr-logo:before {
+  content: "\e8d4";
+}
+.phlight-twitch-logo:before {
+  content: "\e5ce";
+}
+.phlight-twitter-logo:before {
+  content: "\e4ba";
+}
+.phlight-umbrella:before {
+  content: "\e684";
+}
+.phlight-umbrella-simple:before {
+  content: "\e686";
+}
+.phlight-union:before {
+  content: "\edbe";
+}
+.phlight-unite:before {
+  content: "\e87e";
+}
+.phlight-unite-square:before {
+  content: "\e878";
+}
+.phlight-upload:before {
+  content: "\e4be";
+}
+.phlight-upload-simple:before {
+  content: "\e4c0";
+}
+.phlight-usb:before {
+  content: "\e956";
+}
+.phlight-user:before {
+  content: "\e4c2";
+}
+.phlight-user-check:before {
+  content: "\eafa";
+}
+.phlight-user-circle:before {
+  content: "\e4c4";
+}
+.phlight-user-circle-check:before {
+  content: "\ec38";
+}
+.phlight-user-circle-dashed:before {
+  content: "\ec36";
+}
+.phlight-user-circle-gear:before {
+  content: "\e4c6";
+}
+.phlight-user-circle-minus:before {
+  content: "\e4c8";
+}
+.phlight-user-circle-plus:before {
+  content: "\e4ca";
+}
+.phlight-user-focus:before {
+  content: "\e6fc";
+}
+.phlight-user-gear:before {
+  content: "\e4cc";
+}
+.phlight-user-list:before {
+  content: "\e73c";
+}
+.phlight-user-minus:before {
+  content: "\e4ce";
+}
+.phlight-user-plus:before {
+  content: "\e4d0";
+}
+.phlight-user-rectangle:before {
+  content: "\e4d2";
+}
+.phlight-user-sound:before {
+  content: "\eca8";
+}
+.phlight-user-square:before {
+  content: "\e4d4";
+}
+.phlight-user-switch:before {
+  content: "\e756";
+}
+.phlight-users:before {
+  content: "\e4d6";
+}
+.phlight-users-four:before {
+  content: "\e68c";
+}
+.phlight-users-three:before {
+  content: "\e68e";
+}
+.phlight-van:before {
+  content: "\e826";
+}
+.phlight-vault:before {
+  content: "\e76e";
+}
+.phlight-vector-three:before {
+  content: "\ee62";
+}
+.phlight-vector-two:before {
+  content: "\ee64";
+}
+.phlight-vibrate:before {
+  content: "\e4d8";
+}
+.phlight-video:before {
+  content: "\e740";
+}
+.phlight-video-camera:before {
+  content: "\e4da";
+}
+.phlight-video-camera-slash:before {
+  content: "\e4dc";
+}
+.phlight-video-conference:before {
+  content: "\edce";
+}
+.phlight-vignette:before {
+  content: "\eba2";
+}
+.phlight-vinyl-record:before {
+  content: "\ecac";
+}
+.phlight-virtual-reality:before {
+  content: "\e7b8";
+}
+.phlight-virus:before {
+  content: "\e7d6";
+}
+.phlight-visor:before {
+  content: "\ee2a";
+}
+.phlight-voicemail:before {
+  content: "\e4de";
+}
+.phlight-volleyball:before {
+  content: "\e726";
+}
+.phlight-wall:before {
+  content: "\e688";
+}
+.phlight-wallet:before {
+  content: "\e68a";
+}
+.phlight-warehouse:before {
+  content: "\ecd4";
+}
+.phlight-warning:before {
+  content: "\e4e0";
+}
+.phlight-warning-circle:before {
+  content: "\e4e2";
+}
+.phlight-warning-diamond:before {
+  content: "\e7fc";
+}
+.phlight-warning-octagon:before {
+  content: "\e4e4";
+}
+.phlight-washing-machine:before {
+  content: "\ede8";
+}
+.phlight-watch:before {
+  content: "\e4e6";
+}
+.phlight-wave-sawtooth:before {
+  content: "\ea9c";
+}
+.phlight-wave-sine:before {
+  content: "\ea9a";
+}
+.phlight-wave-square:before {
+  content: "\ea9e";
+}
+.phlight-wave-triangle:before {
+  content: "\eaa0";
+}
+.phlight-waveform:before {
+  content: "\e802";
+}
+.phlight-waveform-slash:before {
+  content: "\e800";
+}
+.phlight-waves:before {
+  content: "\e6de";
+}
+.phlight-webcam:before {
+  content: "\e9b2";
+}
+.phlight-webcam-slash:before {
+  content: "\ecdc";
+}
+.phlight-webhooks-logo:before {
+  content: "\ecae";
+}
+.phlight-wechat-logo:before {
+  content: "\e8d2";
+}
+.phlight-whatsapp-logo:before {
+  content: "\e5d0";
+}
+.phlight-wheelchair:before {
+  content: "\e4e8";
+}
+.phlight-wheelchair-motion:before {
+  content: "\e89a";
+}
+.phlight-wifi-high:before {
+  content: "\e4ea";
+}
+.phlight-wifi-low:before {
+  content: "\e4ec";
+}
+.phlight-wifi-medium:before {
+  content: "\e4ee";
+}
+.phlight-wifi-none:before {
+  content: "\e4f0";
+}
+.phlight-wifi-slash:before {
+  content: "\e4f2";
+}
+.phlight-wifi-x:before {
+  content: "\e4f4";
+}
+.phlight-wind:before {
+  content: "\e5d2";
+}
+.phlight-windmill:before {
+  content: "\e9f8";
+}
+.phlight-windows-logo:before {
+  content: "\e692";
+}
+.phlight-wine:before {
+  content: "\e6b2";
+}
+.phlight-wrench:before {
+  content: "\e5d4";
+}
+.phlight-x:before {
+  content: "\e4f6";
+}
+.phlight-x-circle:before {
+  content: "\e4f8";
+}
+.phlight-x-logo:before {
+  content: "\e4bc";
+}
+.phlight-x-square:before {
+  content: "\e4fa";
+}
+.phlight-yarn:before {
+  content: "\ed9a";
+}
+.phlight-yin-yang:before {
+  content: "\e92a";
+}
+.phlight-youtube-logo:before {
+  content: "\e4fc";
+}

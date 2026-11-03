@@ -1,0 +1,16 @@
+{
+  "name": "material-design-icons-for-elementor",
+  "version": "1.0.0",
+  "scripts": {
+    "dl-icons": "material-icons-downloader assets/material-icons/fonts"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^3.2.1",
+    "material-icons-downloader": "^1.3.0"
+  }
+}

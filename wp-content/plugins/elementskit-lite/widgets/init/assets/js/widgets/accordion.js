@@ -1,0 +1,1 @@
+!function(e){"use strict";ElementsKit_Helper.registerWidget("elementskit-accordion.default",function(t){t.on("click",".elementskit-card-header",function(){e(this).parent().toggleClass("active"),e(this).parent().siblings().removeClass("active")})})}(jQuery);

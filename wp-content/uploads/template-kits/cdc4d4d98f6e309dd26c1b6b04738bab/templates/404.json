@@ -1,0 +1,161 @@
+{
+    "version": "0.4",
+    "title": "404",
+    "type": "section",
+    "metadata": {
+        "template_type": "single-404",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+        {
+            "id": "3c5a842f",
+            "settings": {
+                "flex_direction": "column",
+                "background_overlay_background": "classic",
+                "background_overlay_image": {
+                    "url": "https:\/\/evenezer.typelokka.com\/wp-content\/uploads\/2024\/10\/crowd-at-concert-and-colorful-stage-lights-2024-10-02-22-38-04-utc-1.jpg",
+                    "id": 36,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                },
+                "background_overlay_position": "initial",
+                "background_overlay_ypos": {
+                    "unit": "%",
+                    "size": 59,
+                    "sizes": []
+                },
+                "background_overlay_ypos_tablet": {
+                    "unit": "%",
+                    "size": 0,
+                    "sizes": []
+                },
+                "background_overlay_ypos_mobile": {
+                    "unit": "%",
+                    "size": 0,
+                    "sizes": []
+                },
+                "background_overlay_repeat": "no-repeat",
+                "background_overlay_size": "cover",
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": 1,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "130",
+                    "right": "0",
+                    "bottom": "130",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "60",
+                    "right": "20",
+                    "bottom": "60",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "41592d23",
+                    "settings": {
+                        "content_width": "full",
+                        "title": "404",
+                        "align": "center",
+                        "__globals__": {
+                            "title_color": "globals\/colors?id=18f3e74",
+                            "typography_typography": "globals\/typography?id=52b6811"
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "heading",
+                    "elType": "widget"
+                },
+                {
+                    "id": "324146a",
+                    "settings": {
+                        "content_width": "full",
+                        "title": "Oops, Page Not\u00a0Found",
+                        "align": "center",
+                        "__globals__": {
+                            "title_color": "globals\/colors?id=text",
+                            "typography_typography": "globals\/typography?id=640d8ef"
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "heading",
+                    "elType": "widget"
+                },
+                {
+                    "id": "626db44b",
+                    "settings": {
+                        "content_width": "full",
+                        "editor": "<p>Volutpat eu massa cras mauris lacus adipiscing ultrices. Imperdiet eu amet imperdiet suscipit quisque ipsum odio. Blandit ac mi magna maecenas arcu semper. Aliquam porttitor augue id diam.<\/p>",
+                        "align": "center",
+                        "_element_width": "initial",
+                        "_element_width_mobile": "inherit",
+                        "_element_custom_width": {
+                            "unit": "%",
+                            "size": 79,
+                            "sizes": []
+                        },
+                        "_flex_align_self": "center",
+                        "__globals__": {
+                            "typography_typography": "globals\/typography?id=e313178"
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "text-editor",
+                    "elType": "widget"
+                },
+                {
+                    "id": "47b2394d",
+                    "settings": {
+                        "content_width": "full",
+                        "text": "Back To Homepage",
+                        "align_mobile": "justify",
+                        "border_radius": {
+                            "unit": "px",
+                            "top": "12",
+                            "right": "12",
+                            "bottom": "12",
+                            "left": "12",
+                            "isLinked": true
+                        },
+                        "text_padding": {
+                            "unit": "px",
+                            "top": "18",
+                            "right": "30",
+                            "bottom": "18",
+                            "left": "30",
+                            "isLinked": false
+                        },
+                        "_element_width_mobile": "inherit",
+                        "_flex_align_self": "center",
+                        "__globals__": {
+                            "typography_typography": "globals\/typography?id=d5ee8b6",
+                            "button_text_color": "globals\/colors?id=primary",
+                            "hover_color": "globals\/colors?id=18f3e74",
+                            "button_background_hover_color": "globals\/colors?id=secondary"
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "button",
+                    "elType": "widget"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        }
+    ]
+}

@@ -1,0 +1,1375 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Atook - Roofing Services Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/kfkit.rometheme.pro",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/kfkit.rometheme.pro\/atook\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/kfkit.rometheme.pro\/atook\/template-kit\/home-2\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/kfkit.rometheme.pro\/atook\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Services Detail",
+            "screenshot": "screenshots\/services-detail.jpg",
+            "source": "templates\/services-detail.json",
+            "preview_url": "https:\/\/kfkit.rometheme.pro\/atook\/template-kit\/services-detail\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Project",
+            "screenshot": "screenshots\/project.jpg",
+            "source": "templates\/project.json",
+            "preview_url": "https:\/\/kfkit.rometheme.pro\/atook\/template-kit\/project\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.jpg",
+            "source": "templates\/team.json",
+            "preview_url": "https:\/\/kfkit.rometheme.pro\/atook\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing Plan",
+            "screenshot": "screenshots\/pricing-plan.jpg",
+            "source": "templates\/pricing-plan.json",
+            "preview_url": "https:\/\/kfkit.rometheme.pro\/atook\/template-kit\/pricing-plan\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQs",
+            "screenshot": "screenshots\/faqs.jpg",
+            "source": "templates\/faqs.json",
+            "preview_url": "https:\/\/kfkit.rometheme.pro\/atook\/template-kit\/faqs\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/kfkit.rometheme.pro\/atook\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Blog",
+            "screenshot": "screenshots\/single-blog.jpg",
+            "source": "templates\/single-blog.json",
+            "preview_url": "https:\/\/kfkit.rometheme.pro\/atook\/template-kit\/single-blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "404 Error",
+            "screenshot": "screenshots\/404-error.jpg",
+            "source": "templates\/404-error.json",
+            "preview_url": "https:\/\/kfkit.rometheme.pro\/atook\/template-kit\/404-error\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/kfkit.rometheme.pro\/atook\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Atook - Booking Form",
+            "screenshot": "screenshots\/atook-booking-form.jpg",
+            "source": "templates\/atook-booking-form.json",
+            "preview_url": "https:\/\/kfkit.rometheme.pro\/atook\/template-kit\/atook-booking-form\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Atook - Question Form",
+            "screenshot": "screenshots\/atook-question-form.jpg",
+            "source": "templates\/atook-question-form.json",
+            "preview_url": "https:\/\/kfkit.rometheme.pro\/atook\/template-kit\/atook-question-form\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Atook - Contact Form",
+            "screenshot": "screenshots\/atook-contact-form.jpg",
+            "source": "templates\/atook-contact-form.json",
+            "preview_url": "https:\/\/kfkit.rometheme.pro\/atook\/template-kit\/atook-contact-form\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Atook - Newsletter Form",
+            "screenshot": "screenshots\/atook-newsletter-form.jpg",
+            "source": "templates\/atook-newsletter-form.json",
+            "preview_url": "https:\/\/kfkit.rometheme.pro\/atook\/template-kit\/atook-newsletter-form\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Atook - Header",
+            "screenshot": "screenshots\/atook-header.jpg",
+            "source": "templates\/atook-header.json",
+            "preview_url": "https:\/\/kfkit.rometheme.pro\/atook\/template-kit\/atook-header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Atook - Footer",
+            "screenshot": "screenshots\/atook-footer.jpg",
+            "source": "templates\/atook-footer.json",
+            "preview_url": "https:\/\/kfkit.rometheme.pro\/atook\/template-kit\/atook-footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "3.7.3",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.7.0",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "MetForm",
+            "version": "2.2.1",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        }
+    ],
+    "images": [
+        {
+            "filename": "F1-1.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F1-1-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 570504,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/working-using-safety-harness-ZSWUFNL"
+        },
+        {
+            "filename": "F2.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F2-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 498743,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/construction-site-contractor-4LXH8W6"
+        },
+        {
+            "filename": "F3.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F3-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 438812,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/construction-job-YFFLB47"
+        },
+        {
+            "filename": "F4.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F4-800x333.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 481042,
+            "dimensions": [
+                1920,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/black-ceramic-roof-tiles-LYZDPRS"
+        },
+        {
+            "filename": "C-1-1.png",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/C-1-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 2409,
+            "dimensions": [
+                300,
+                74
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "www.logoipsum.com"
+        },
+        {
+            "filename": "C-2-1.png",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/C-2-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 2952,
+            "dimensions": [
+                300,
+                74
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "www.logoipsum.com"
+        },
+        {
+            "filename": "C-3-1.png",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/C-3-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 4270,
+            "dimensions": [
+                300,
+                74
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "www.logoipsum.com"
+        },
+        {
+            "filename": "c-4.png",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/c-4.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 3671,
+            "dimensions": [
+                300,
+                74
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "www.logoipsum.com"
+        },
+        {
+            "filename": "C-5.png",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/C-5.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 3340,
+            "dimensions": [
+                300,
+                74
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "www.logoipsum.com"
+        },
+        {
+            "filename": "C-6.png",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/C-6.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 2992,
+            "dimensions": [
+                300,
+                74
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "www.logoipsum.com"
+        },
+        {
+            "filename": "F5.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F5-800x667.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/services-detail.json",
+                    "name": "Services Detail"
+                }
+            ],
+            "filesize": 290899,
+            "dimensions": [
+                900,
+                750
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/wooden-roof-construction-E6XPA68"
+        },
+        {
+            "filename": "F6.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F6-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/services-detail.json",
+                    "name": "Services Detail"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/atook-footer.json",
+                    "name": "Atook - Footer"
+                }
+            ],
+            "filesize": 583980,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/modern-roofing-and-decoration-of-chimneys-N2HJ5NB"
+        },
+        {
+            "filename": "F8.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F8-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 152475,
+            "dimensions": [
+                900,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/laying-roof-tiles-3Z45TDS"
+        },
+        {
+            "filename": "F11.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F11.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 234089,
+            "dimensions": [
+                700,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/wooden-roof-construction-E6XPA68"
+        },
+        {
+            "filename": "F12.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F12-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 359467,
+            "dimensions": [
+                900,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/people-working-to-tile-a-roof-damaged-by-natural-d-ALTJLAN"
+        },
+        {
+            "filename": "F9.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F9.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 273331,
+            "dimensions": [
+                500,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/worker-stands-with-his-back-to-camera-against-the--MLCULM2"
+        },
+        {
+            "filename": "F10.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F10.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 244842,
+            "dimensions": [
+                700,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/professional-worker-measuring-height-of-roof-with--LGAZ9C6"
+        },
+        {
+            "filename": "F7.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F7-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 241344,
+            "dimensions": [
+                900,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/repair-and-build-construction-of-roof-conception-f-Q69K4X2"
+        },
+        {
+            "filename": "F31.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F31-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 151949,
+            "dimensions": [
+                900,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/laying-roof-tiles-3Z45TDS"
+        },
+        {
+            "filename": "F27.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F27-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 183780,
+            "dimensions": [
+                900,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/wooden-roof-construction-E6XPA68"
+        },
+        {
+            "filename": "F29.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F29-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 171295,
+            "dimensions": [
+                900,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/professional-worker-measuring-height-of-roof-with--LGAZ9C6"
+        },
+        {
+            "filename": "F30.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F30-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 306056,
+            "dimensions": [
+                900,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/people-working-to-tile-a-roof-damaged-by-natural-d-ALTJLAN"
+        },
+        {
+            "filename": "F26.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F26-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 268851,
+            "dimensions": [
+                900,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/worker-stands-with-his-back-to-camera-against-the--MLCULM2"
+        },
+        {
+            "filename": "F28.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F28-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 241466,
+            "dimensions": [
+                900,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/repair-and-build-construction-of-roof-conception-f-Q69K4X2"
+        },
+        {
+            "filename": "F15.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F15-800x333.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services-detail.json",
+                    "name": "Services Detail"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                }
+            ],
+            "filesize": 579800,
+            "dimensions": [
+                1920,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/construction-worker-on-duty-DPU4EFV"
+        },
+        {
+            "filename": "F16.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F16-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services-detail.json",
+                    "name": "Services Detail"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 602195,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/worker-with-nail-gun-4MLTP8E"
+        },
+        {
+            "filename": "httpselements.envato.comcollage-of-diverse-entrepreneurs-laughing-against-4V9NAJX.png",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/httpselements.envato.comcollage-of-diverse-entrepreneurs-laughing-against-4V9NAJX.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services-detail.json",
+                    "name": "Services Detail"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 117938,
+            "dimensions": [
+                300,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-4V9NAJX"
+        },
+        {
+            "filename": "testimonial-4.png",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/testimonial-4.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services-detail.json",
+                    "name": "Services Detail"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 145309,
+            "dimensions": [
+                300,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-4V9NAJX"
+        },
+        {
+            "filename": "testimonial-3.png",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/testimonial-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services-detail.json",
+                    "name": "Services Detail"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 100598,
+            "dimensions": [
+                300,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-4V9NAJX"
+        },
+        {
+            "filename": "F17.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F17.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 184288,
+            "dimensions": [
+                700,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/cheerful-young-man-builder-standing-at-constructio-5UEXT86"
+        },
+        {
+            "filename": "F19.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F19.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 301281,
+            "dimensions": [
+                700,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/gladsome-architect-posing-proudly-at-a-constructio-5977MLP"
+        },
+        {
+            "filename": "F24.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F24-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/services-detail.json",
+                    "name": "Services Detail"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/single-blog.json",
+                    "name": "Single Blog"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 806335,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/residential-construction-job-TZX9LY9"
+        },
+        {
+            "filename": "F25.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F25.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/services-detail.json",
+                    "name": "Services Detail"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                }
+            ],
+            "filesize": 267816,
+            "dimensions": [
+                700,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/pleased-man-in-a-hard-hat-posing-under-a-wooden-ro-3GPT846"
+        },
+        {
+            "filename": "PNG-1.png",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/PNG-1-800x450.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 28390,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/square-dotted-world-map-EMPEZ3B"
+        },
+        {
+            "filename": "F32.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F32-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services-detail.json",
+                    "name": "Services Detail"
+                },
+                {
+                    "source": "templates\/single-blog.json",
+                    "name": "Single Blog"
+                }
+            ],
+            "filesize": 347777,
+            "dimensions": [
+                900,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/construction-contractor-cut-to-size-wooden-structu-KB867LQ"
+        },
+        {
+            "filename": "F20.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F20.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 231516,
+            "dimensions": [
+                700,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/construction-worker-with-a-pencil-looking-ahead-V59D8G7"
+        },
+        {
+            "filename": "F21.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F21.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 313236,
+            "dimensions": [
+                700,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/construction-contractor-portrait-PYUSMHB"
+        },
+        {
+            "filename": "F18.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F18.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 179112,
+            "dimensions": [
+                700,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/smiling-beautiful-joyous-woman-engineer-looking-fo-KFA9J4W"
+        },
+        {
+            "filename": "F22.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F22.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 158667,
+            "dimensions": [
+                700,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/standing-in-the-front-of-vehicle-worker-in-profess-FCD4HZE"
+        },
+        {
+            "filename": "F33.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F33.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                }
+            ],
+            "filesize": 367127,
+            "dimensions": [
+                600,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/cheerful-young-man-builder-standing-at-constructio-5UEXT86"
+        },
+        {
+            "filename": "F37.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F37-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-blog.json",
+                    "name": "Single Blog"
+                }
+            ],
+            "filesize": 214502,
+            "dimensions": [
+                900,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/construction-contractor-worker-moving-pieces-of-wo-BXBY2T5"
+        },
+        {
+            "filename": "F35.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F35-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-blog.json",
+                    "name": "Single Blog"
+                }
+            ],
+            "filesize": 199807,
+            "dimensions": [
+                900,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/worker-with-nail-gun-4MLTP8E"
+        },
+        {
+            "filename": "F34.jpg",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/F34-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/404-error.json",
+                    "name": "404 Error"
+                }
+            ],
+            "filesize": 392254,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/contractor-field-research-P5DQNZD"
+        },
+        {
+            "filename": "Png-2.png",
+            "thumbnail_url": "http:\/\/kfkit.rometheme.pro\/atook\/wp-content\/uploads\/sites\/34\/2022\/08\/Png-2.png",
+            "templates": [
+                {
+                    "source": "templates\/atook-header.json",
+                    "name": "Atook - Header"
+                },
+                {
+                    "source": "templates\/atook-footer.json",
+                    "name": "Atook - Footer"
+                }
+            ],
+            "filesize": 4130,
+            "dimensions": [
+                300,
+                82
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        }
+    ]
+}

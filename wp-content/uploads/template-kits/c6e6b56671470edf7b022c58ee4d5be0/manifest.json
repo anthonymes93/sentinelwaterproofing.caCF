@@ -1,0 +1,1067 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "KeyMaster - Template kit for Locksmith",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/point.moxcreative.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Homepage",
+            "screenshot": "screenshots\/homepage.jpg",
+            "source": "templates\/homepage.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/keymaster\/template-kit\/homepage\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single services",
+            "screenshot": "screenshots\/single-services.jpg",
+            "source": "templates\/single-services.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/keymaster\/template-kit\/single-services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Project",
+            "screenshot": "screenshots\/project.jpg",
+            "source": "templates\/project.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/keymaster\/template-kit\/project\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/keymaster\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/keymaster\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Pricing Plan",
+            "screenshot": "screenshots\/pricing-plan.jpg",
+            "source": "templates\/pricing-plan.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/keymaster\/template-kit\/pricing-plan\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Our Team",
+            "screenshot": "screenshots\/our-team.jpg",
+            "source": "templates\/our-team.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/keymaster\/template-kit\/our-team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/keymaster\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/keymaster\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "KeyMaster - Error 404",
+            "screenshot": "screenshots\/keymaster-error-404.jpg",
+            "source": "templates\/keymaster-error-404.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/keymaster\/?elementor_library=keymaster-error-404",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "KeyMaster - Single Post",
+            "screenshot": "screenshots\/keymaster-single-post.jpg",
+            "source": "templates\/keymaster-single-post.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/keymaster\/?elementor_library=keymaster-single-post",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "KeyMaster - Archive",
+            "screenshot": "screenshots\/keymaster-archive.jpg",
+            "source": "templates\/keymaster-archive.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/keymaster\/?elementor_library=keymaster-archive",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "KeyMaster - Footer",
+            "screenshot": "screenshots\/keymaster-footer.jpg",
+            "source": "templates\/keymaster-footer.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/keymaster\/?elementor_library=keymaster-footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "KeyMaster - Header",
+            "screenshot": "screenshots\/keymaster-header.jpg",
+            "source": "templates\/keymaster-header.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/keymaster\/?elementor_library=keymaster-header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Icon Element",
+            "version": "1.0.1",
+            "file": "icon-element\/iconelement.php",
+            "author": "Ashraf"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "3.6.0",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.5.6",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Material Design Icons for Page Builders",
+            "version": "1.4.2",
+            "file": "material-design-icons-for-elementor\/material-design-icons-for-elementor.php",
+            "author": "Photon WP"
+        }
+    ],
+    "images": [
+        {
+            "filename": "locking-entrance-door-with-a-smart-phone.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/locking-entrance-door-with-a-smart-phone-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 73312,
+            "dimensions": [
+                1080,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-R559CBV"
+        },
+        {
+            "filename": "bearded-young-man-fixing-door-with-screwdriver.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/bearded-young-man-fixing-door-with-screwdriver-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 67197,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-MJVFY97"
+        },
+        {
+            "filename": "a-woman-holding-and-showing-car-key-while-sitting-in-the-car.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/a-woman-holding-and-showing-car-key-while-sitting-in-the-car-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 64820,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-AUBDY6G"
+        },
+        {
+            "filename": "closeup-of-a-professional-locksmith-installing-a-new-lock-on-a-house-exterior-door-with-the-inside.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/closeup-of-a-professional-locksmith-installing-a-new-lock-on-a-house-exterior-door-with-the-inside-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/single-services.json",
+                    "name": "Single services"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 79588,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-XBULSP8"
+        },
+        {
+            "filename": "logo-1.png",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/logo-1.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 2063,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-2.png",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/logo-2.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 1811,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-3.png",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/logo-3.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 2079,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-4.png",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/logo-4.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 2193,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-5.png",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/logo-5.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 2300,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-11.png",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/logo-11.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 1900,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "builder-installing-door-lock.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/builder-installing-door-lock-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 95539,
+            "dimensions": [
+                1080,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-FL6ERK5"
+        },
+        {
+            "filename": "factory-technicians.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/factory-technicians-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/single-services.json",
+                    "name": "Single services"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 84089,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-46A89DM"
+        },
+        {
+            "filename": "woman-with-car-key.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/woman-with-car-key-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 80869,
+            "dimensions": [
+                1080,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PMXCS4G"
+        },
+        {
+            "filename": "geometrical-lines-patterned-blue-background.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/geometrical-lines-patterned-blue-background-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/single-services.json",
+                    "name": "Single services"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 139090,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-KDHR7XW"
+        },
+        {
+            "filename": "smiling-handsome-plumber-and-customer-shaking-hands-in-kitchen.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/smiling-handsome-plumber-and-customer-shaking-hands-in-kitchen-800x1199.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/single-services.json",
+                    "name": "Single services"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 200774,
+            "dimensions": [
+                1080,
+                1618
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-6322P5Y"
+        },
+        {
+            "filename": "map_bg.png",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/map_bg-800x449.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 34831,
+            "dimensions": [
+                1080,
+                606
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/square-dotted-world-map-and-earth-globes-Q676QDA"
+        },
+        {
+            "filename": "open-padlock-on-modern-laptop.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/open-padlock-on-modern-laptop-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/single-services.json",
+                    "name": "Single services"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/keymaster-single-post.json",
+                    "name": "KeyMaster - Single Post"
+                },
+                {
+                    "source": "templates\/keymaster-archive.json",
+                    "name": "KeyMaster - Archive"
+                }
+            ],
+            "filesize": 58222,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-876PVD5"
+        },
+        {
+            "filename": "material-design-background.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/material-design-background-800x532.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-services.json",
+                    "name": "Single services"
+                },
+                {
+                    "source": "templates\/keymaster-footer.json",
+                    "name": "KeyMaster - Footer"
+                }
+            ],
+            "filesize": 102287,
+            "dimensions": [
+                1080,
+                719
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PVJGADN"
+        },
+        {
+            "filename": "man-using-smart-lock-applicaition.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/man-using-smart-lock-applicaition-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 51273,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-E58EFPR"
+        },
+        {
+            "filename": "checking-email-on-tablet.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/checking-email-on-tablet-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 79131,
+            "dimensions": [
+                1080,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-Y783VT6"
+        },
+        {
+            "filename": "installation-of-a-lock-on-the-entrance-door.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/installation-of-a-lock-on-the-entrance-door-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                }
+            ],
+            "filesize": 71560,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-KCZ859F"
+        },
+        {
+            "filename": "handyman-repair-the-door-lock-in-the-worker-s-hands-installing-new-door-locker.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/handyman-repair-the-door-lock-in-the-worker-s-hands-installing-new-door-locker-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 52679,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-68XKP57"
+        },
+        {
+            "filename": "holding-keys-with-house-keychain.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/holding-keys-with-house-keychain-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 57735,
+            "dimensions": [
+                1080,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-F5J5JHE"
+        },
+        {
+            "filename": "carpenter-calling-customer.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/carpenter-calling-customer-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 159422,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-8HG6WKW"
+        },
+        {
+            "filename": "img_1.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/img_1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 63016,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/pleased-cheerful-redhaired-male-with-pleasant-smil-CCXAYZL"
+        },
+        {
+            "filename": "img_3.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/img_3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 70638,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/happy-confident-male-entrepreneur-with-postive-smi-BDAU9DK"
+        },
+        {
+            "filename": "img_4.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/img_4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 71472,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/horizontal-shot-of-pleasant-looking-ginger-young-e-F9MBGAR"
+        },
+        {
+            "filename": "img_5.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/img_5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 111607,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/carefree-attractive-girl-with-pleasant-look-enjoys-4GXJZTE"
+        },
+        {
+            "filename": "img_6.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/img_6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 85457,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/joyful-freckled-teenager-wears-round-transparent-g-EPRUCGN"
+        },
+        {
+            "filename": "img_7.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/img_7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 45428,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/optimistic-positive-handsome-bearded-man-FXXXGY4"
+        },
+        {
+            "filename": "img_8.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/img_8.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 64765,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/waist-up-shot-of-handsome-self-confident-cheerful--BUTM9PX"
+        },
+        {
+            "filename": "img_9.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/img_9.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 95843,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-cheerful-european-female-with-satisfie-W73EUUE"
+        },
+        {
+            "filename": "pattern_1.png",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/pattern_1.png",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 584,
+            "dimensions": [
+                119,
+                252
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "closeup-of-aged-locks-nad-keys.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/closeup-of-aged-locks-nad-keys-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/keymaster-error-404.json",
+                    "name": "KeyMaster - Error 404"
+                }
+            ],
+            "filesize": 273035,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-LT5ZGU8"
+        },
+        {
+            "filename": "logo_keymaster.png",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/keymaster\/wp-content\/uploads\/sites\/5\/2022\/04\/logo_keymaster.png",
+            "templates": [
+                {
+                    "source": "templates\/keymaster-footer.json",
+                    "name": "KeyMaster - Footer"
+                },
+                {
+                    "source": "templates\/keymaster-header.json",
+                    "name": "KeyMaster - Header"
+                }
+            ],
+            "filesize": 5554,
+            "dimensions": [
+                377,
+                77
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+!function(){"use strict";ElementsKit_Helper.registerWidget("elementskit-progressbar.default",function(e){var t=e.find(".single-skill-bar"),i=t.find(".skill-track"),n=t.find(".number-percentage"),a=n.data("value"),r=n.data("animation-duration")||300;ElementsKit_Helper?.observeElement(t[0],()=>{n.animateNumbers(a,!0,r),i.animate({width:a+"%"},r)})})}(jQuery);
