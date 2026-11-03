@@ -583,7 +583,7 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
     const email = form.querySelector('[name="email-1"]').value.trim();
     const phone = form.querySelector('[name="phone-1"]').value.trim();
     const body = form.querySelector('[name="textarea-1"]').value.trim();
-    if (!name || !email || !body) { message('Please enter your name, email address, and message.', true); return; }
+    if (!name || (!email && !phone) || !body) { message('Please enter your name, an email or phone number, and a message.', true); return; }
     busy = true;
     submit.disabled = true;
     submit.textContent = 'Sending…';
