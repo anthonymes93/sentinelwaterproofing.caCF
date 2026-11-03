@@ -39,7 +39,7 @@ export async function onRequestPost({ request, env }) {
     method: 'POST',
     headers: { Authorization: 'Bearer ' + env.RESEND_API_KEY, 'content-type': 'application/json' },
     body: JSON.stringify({
-      from: env.CONTACT_FROM_EMAIL,
+      from: 'Website Enquiries <' + env.CONTACT_FROM_EMAIL + '>',
       to: [env.CONTACT_TO_EMAIL],
       ...(email ? { reply_to: email } : {}),
       subject: 'Sentinel Waterproofing — New contact inquiry',
